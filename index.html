@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html data-theme="dark" lang="vi">
+<html data-theme="dark" lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Portfolio cá nhân của Đặng Nguyễn Minh Khôi — Nuôi trồng Thủy sản, phát triển bền vững, giao lưu quốc tế, TRIbaLINGUAL, VietShrimp, nhiếp ảnh và hành trình khám phá Việt Nam." name="description"/>
+<meta content="Portfolio of Dang Nguyen Minh Khoi, an aquaculture graduate and Master's student based in the Mekong Delta, focused on industry communication, market development and practical aquaculture." name="description"/>
 <meta content="#07141b" name="theme-color"/>
-<title>Đặng Nguyễn Minh Khôi | Aquaculture • Sustainability • Global Journey</title>
+<title>Dang Nguyen Minh Khoi | Aquaculture Market Development &amp; Technical Communication</title>
 <style>
     :root{
       --bg:#07141b;
@@ -107,16 +107,1177 @@
     .menu-btn{display:none}
     .mobile-menu{display:none}
 
-    /* Google Translate Overrides */
-    .goog-te-banner-frame, .goog-te-balloon-frame, #goog-gt-tt { display: none !important; }
-    body { top: 0 !important; }
-    #google_translate_element { display: none !important; }
-    .goog-text-highlight { background: transparent !important; box-shadow: none !important; }
-
     /* hero */
     .hero{min-height:100svh;display:grid;align-items:center;padding:116px 0 52px;position:relative;isolation:isolate}
     .hero::before{
       content:"";position:absolute;inset:0;z-index:-2;
       background-image:
         linear-gradient(90deg,rgba(3,16,23,.96) 0%,rgba(3,16,23,.83) 34%,rgba(3,16,23,.3) 67%,rgba(3,16,23,.72) 100%),
-        url("data:image/webp;base64,UklGRoiHBgBXRUJQVlA4IHyHBgDQGRWdASpABgAFPl0mkEUjoiGrsNQtEXALiU3IV9/q+wCq/oazNq6G3VSYx15xVdcyHPm8V3R8xNH/z4/1ST9yD/dXH9gPbb8P5s/5f3wuUfHH5/+V/1f/U/zH7k/cR/o/+ngN75/4vNY9Y/oP/F/p/3y/1X/////2//8X/0/4H+7+NX9F/4H/z/P/6Ef5z/d//J/oP99+0f0l//HsZ/yv/v9Un91/5v7q/9b4YP/P+3vwH/tH/S/cX/p/JH/U/93/4fz/7570Rf7H/2f///5fdy/+X7xf9j5mP6p/2/3b/73wkf63/8/7T/0d330a/Mb0afI/5P/f/5D9xPM38l+lf3H92/zf7P/Hr9xfW3hW9S/o//x/sf+P7Cfzf8w/4v8r6Kf+v/PeL/53/Bf+z/O+wR+Zf2D9jPUb+1//n/K/6ngqbL/tf3J9g73v/Hftf6YP4X7l+r/6//vf/x/wvgF/qv+c/+X+x91fAJ/e+oT/i/RX/4PNF+l/9L2Ev6T/n/2n7f4Ja6CbceG26GxOcovwgNv38sCYDu+YGYpxcg/3GPn0zjXb7t6FR81qpiTXFBZHfLa6iQ9+NQUipqzYrhq1Dn8c8ZLC3hNvXAf9iykgzUFJEyL+i3l07DVPw5B7sSlEEYvHOIQUsxbGo5v6OyPbtGcek0A/k23NGy2dAn0NoyY/JFsKlzyH9EpIYcuqcWE9GcuqqIgWXP+Wh7vwTXvUwNmU3th/i7PtM0G6CYn6U4CU/SKpX9djZcb/NidgnboH8vGy6FrcAbLdA5nl7TjhW3j+Z1PlETpkTiuJYozuP82zna1kM9nIPeS2Vzdhb48l2veSI9DEFQ90gAbF64EfoX+QsSuMEsPYK+RwLpoJX1U0eNd/nA9PUV3F/M+uFj7zFUVLZ3TSGR5UnHaVRpnvGw+mCAVMC9EhQ72m8l3SumH3aIi1wd/VA8P8rSYDz+RV2jHq+wXHxx352XVx++iXvrY4yFW6fn5znFBb+i5q2rHokITgCth9V79Epa1X0BfSw5YapMJCLg6MLhw4ZampJ03U6Ikl2mO4opib84SBx6DDEM4RsBFCniCf/UiZOiM5lL67aIVm/rhp3xzvUD3iKnS365m3DVpro4vQP0uI9ptWGdxSTpSdeeT5RpfazzQ5ZgnNBW1R+doNI/1vfWfDrPsCiUgyc1Jnh4b9M+lwu1QWV9fWC3gFOnptPZJZragrodGY3TLIEdIv2bt+Ct3FTSEqetPoKCPcuSLi3C13W87T157QQLvOqjkk9sJclpfKiMpmiQ66Oo23kG/39W1drvyp5oXZEV2YTNEf0e8D7ksSwYxg1VF59Nwmy/J5Ghfs+yl4FCLbEa63qQ+Ovk9Uuv4rV/7Qhe8pV24cHUi+8xyNG8TX0JGyHEhuvHhswcx+E1+79wPT5VFds163if3z6aR/f7SrTAyeIcvoQL73mJXa3RK0FENj3VtsumGMmJIyJEmnAKrno8+Qs2omwDxBclGLBYgGGp75ncQcKK7YDkS8XnPkwQNPCj3St2BsJsBWqQyVf67yIzcbujYsLnTg1bFwb4SpvnuJWWz1frbAPV02xTzuxHZ7zz+hVhH96nUAyrkVDsZNxTOdTVbRIR7NeWmVV8I6VTfO891/xpMx8OCj5ufZFnAugaWkOcnUQNaWDvoBr0Bt8OMznc9WKwPiebcovrbVPGi/COKXTP7SGZM3GLmHqbRD1aUTPWFe4bVx/YxqphwS8Fdg3WpOXftB6bXQk/g6Yl9wWiyJTH27xp2em4BF/3QFc2P1bZL5fwKaqFfB5UrJygFBfXHwY4sTbDrgBCHjj6L9FbXIyaLcVw87hTIIdb5U/TRX1fmS4Nci5US/ykWH/zP3oOKKK2YdaHXULzV8ckx55EfLONFqon/l26fQ1UyqW6fN7SK0O3YpC15BTWQ7nR7sZAZGZ9WDl8oqvBsPamQNu3VECoDPiIyxrlLq+gA+gD5/BiXPJYuZ2S5hOyYfz7Kos2tBnMw3hWZSy5VKMPmi0vqdGlD0gfNF0vkvJQQWtfxx2EeME7JImYQKZU7Z7nW75eH4q+87BTx2/y5jP/w80PCPzgJUyzV1TdKAPQg+FD/THaWaOi6sns6YqkXAkJGkuAjMoPmVcpA3EKtWTCH0/AHnGOisEJTEm8UTFbMatOhZwhxwd6MBuLfq51Cdf70XL1HoQdOqHFRTCiGVmUgVbgest4xUF5qG9fO8x9LQksr58Zt6fQyG4kiVvDw+/11i9MhZKwm5xa4mSCnRYtg2Vx95NOBEioOuxzRTUYQq6pb8haQvHAcbr9DLdJrQ3Mj2dSgYspF2Q72uK1Kl38JI1YkNQBxTB7fTBtzX6/uJrHU495OH2ve4VLFNrZkP17sXLU5jTmhEgRP7TW8KdEM7GRFv+AqnrasJBFoZtF9esSxZfGvNltNcVlRW1PUGkRTxh/4fWWh/BlHcbalxS02horzRiqOMMJnVHalIO9+cDX/aDdrvwj+IHobRFGQMpEAPBWHpiRjWNJB6vFv+2cd35jDC3NeNypdrXlm/81HLPTvwkbhJO0TfEcad1Nrv4Pp9AxbBsQ2n/pNkNDja8W/TN3yjTUNlrdfyfS9G8v7gxb6FvL13m3w//dGygVkmNHXx+rIaXPSmfWy/6da3wONUflVp6BtXz6c5g6q3nWcciCOfGAVNSpvrIY+SVVyw20dg5hcWC4g9nXw6trXTCeRdzglB+FFzYUvtXxpTXEkvWOY9S6d/Qd4tGg71J5rLrcYiDwiR9Zo8/UdkeoekcPP/lTyT+vWAHTlza5VfUJvaHG+NiHOUn6vmAocB/bmrBAOhKEr0SUYudIXE/pIvYd+WGDvOfaffIdq8yA2ba+OszW8FCc/ejNtzq5dBa/liLy0SieNx54NPbnFPScxkXLeM8dj0ZFTD2rZowllwIA1xVxGPC6+4vE2cJNWbsnrXw5kxlNaEhToMGLJr2lKrOwjyfTXGU7GQ2IYjNxUeeX3KLrhy0R4QRLyM/5ac1H0Y+8JcG7BECwwzq1uqU/nWHAbjD73vsaz12FcJqFIXf8/1etxE6Hd8lCzRZb5KtzuRKlui7DFz59T+mxfdM0pWRdglpGU9EW8tQAmk7gkpS+paPXv/TWKqv1xIB+Mbyo0NX92YM14FO2OQjjzv2oYBs3079FCOs0iZPexlnQf0JyeZw18z9pylv+pmz+B+fKRFPnz7/+2j3MTG9wtj9e89oNn7dMaZ55N3KFsy/cEI7WGlllLLDfLForxTwqrVZDbytJZ8lXvlOl7RTLOwl1U8RucfANj8Ia52ttyu8pJv2qwF5AZ1OMcXeGDYM+yC2wG9OePTbYTAI1e8h+EUIOiEkvefyvYuzCboxGXQuZwkU8r8a83BMSII3K1Nb2ZFYXouMpiYvXC/G5GILkddRKP8KVImnb+WwzuurrtPAgWlSO4b0Op1Oxe6bP+O4kYidsJIVWcWDrGRoH/jzX/hHoMpbRn6oTjEncmN0zUd5IjQ+lM2zeNYzHAaCP/VpHRCjdRuVQF2sBT4KjLAhZVG+v7ikHlcX2TVO1iqfYF8bbdJ7kXkUwfqcwxtrWudiPvMpbkVMmX5JHVlVPcgn2HjOOxopm4p4pBSAZFEZg4p1PVK2It9Wb3aM+mEcGm/1up3VqEgqvLcB4ZSwd18cPlauFL+r7uoh8CR6S1YXk5h+eQDc9rwFwtjoNiTAqyjkE5KhrZySku2iBW1CS75xACHNklGoLoRqz5CIcwBuUIsYloxTfWKoN/sUZLZwMQKhZyGf3T2CH/LfyVXh/Oa2TjGVwPPOs8D7J1eLner1snvZhSDhwX+GTzEEvPv0Xn4NfNqAFkG6ZtjoRfHEnZPcg0kVdfoCxggSe3y8eMmOdSIZTu3WZ01Js7qTLTaDYay8kn8ts/bkR8A0IUBdPsCsfGigowbfN2MbUmx5F/40fx9nWJ0QKRS2B0Qu9yxb+k5wYNpOWwsEzg6D27qTZFRB2kZhsbSDH6wrvMcv2h87u9MAzMHiNjB40OFR16YuEJPUPX7MBXmEeAkecTp8MpXwg+y8epQpJ+wZpqkX7JOEwrA70tOXUe97B0R7Q7esbu2qoLVYdS4uMVwlWX7t6J2AN8FqZ7JcSAO//SpnOk/1TY5W+qbcSkpJYtB2uBIz057iNdh0rB74SPoncCgVoPcrDRn/fP7FxLzvOGJxP2SEB7BxGLSZzgbxPyxuzep8cF07c9bumOdXcgZ+yCzcw0CkYNoZAhH73b2lDl422wPyhpkExg9iRQvIC+Dxe+x2tXVx8a9PXMnWMTZWo0umrM7jBO5QX0eoXXtUHH25VqEJyeisMwGzx4a8t15CBp5ONSRpgTi95SBs4KQIll358fYA5aqyaMbvflvOEQhFIX13x0qwCTAf96AGTVTv33g3KTgTD9SXC4Gv9EjFxO66G+a3FOCL0rWxS7DXOaTnjzZ0xLGNzU+0RFb2TbUSbd5yMhouAZJ/SvdNr9+QHuo77dRDRSRaFoLZ2l4d4zJnk6Cd0YGmw54CdbF/Sl/gho2k88Co7lNV3zSKrng6DVZVyG9PE24noV9YCEdn09+zNE2dNM0h5NO+WiIEo6sePPWQqaYomijSoeWNqfWgE35DE+BcUgRCqVc+S2o4oslnfSI4z8g9NwjlzLAP25zrgEGRRB6WSXVeai64utTyojfLtz+k7q5H1eQTYF/9w+5GZvqrmFSoxMXj6jkaR+py7aiE1j74GiRHTqhi/lMnjFIXt8Aqrc3BHFGh4uN7cGNdprNFiaWrw3UqBZYApgu2PJGnmfNWgiGqRq9xQRiqnYlxWMfSlgeQt0eBCCGjvCbASTnSXZnpM8tvmg+RosyzE8yDXdue8BPOpiDNFYFwtN4zJ1tWUHE4pEaFtu4MPAdbNVL2aAb+rQ88WH1RCGMMJLFSAK7np4iILKoXJeW70J1Rcm2gGYA1u50qSA40yok8zs6jIFamWlT3c10fFFjlP5wzBXbTRg8EuERW+kdVOE3yNggnKggbPc11aaSFrBWm2IYbuNQfHe3Fh4p7rG2yJldcMLVOAUfIOec2iUIWRmnv4wwuPbdTZgZDz8NsVjckmtggP+8HOrgP33aZa1L/nBUkYOlLMTGpRidTXC1fdcmXJb4u1VXWptEdGoTC3YOxzpzSHSk1aEe/Bz0aR3+rXvFx7Be29uRawz/DPhLbhyRUDg7ON59IC8RItD27ep1u+5c0/OwxcPRmzfFuMjs42pP5J582AH0l2zY7MZaaIZyY45EiYcxm9PomQe04AzSZzkGAu91zBLSQBk0/sZnoBDFdURwh7LAaaR292XNPTawkj4cWs36NKQiV/5++lS68klTfQPm2I63zzAo+R8AEXJwn+DOrjzAvOclRv0G1hjRht/5WRSqj/rreY720frGsWzyqf33+SB6OPdEU1MDz9WrSd1ZbB7BBOfU1YfzKtba/YK0kzlgzAG2YEI0zB+A6c8hBF1ETnqva0rI1x5cpG7K9PrUww6iFs2VjHjzOJsH9tuvtWqxa8B4SV32Ow0xeSVDTmBozkVSYqUakFBQP+dKrwA92p/Q35ocYWXJlZ35oLoJcD8hD6V+7R+zDwf3cw/75JvPo2Gw59zd3axG+44Q3RLWcb2jNdgtgxWNe5+3Wl90XEoDwHtj4HM6byvgemChwYXqFWO+u7Xm5Ot+/OOlWyJGnrY9z2HfHnRTU68wEO39e5z5f1/ReW+LJKV9zfDZyc4FUvAJNpiLIOz6afyg2iRh44A1oaGfAD2pSr8dJ7+WWgNDyBOX5D9fnjqwY6rbPcvhHQmQTwu0aD9gE0BvfPPu31X1pZOmS+KzL05rxKVP7Q7tu7JwUX2g6c7CJsAZthnAIoO68QBBq+sco6WaW36LeDr4rxart3ZpU50qKIS4PE9U7dZc1qiwulXOXOwiTHa71XM0/e47I4reBdRE9DSdyg8GbnUMzGhQIFIYPBL+GOm5+N3lPf/VdHFfDrz5pyb1seJkhvjUkP9YqrHqZTLINYlFjO3rAfMI7tR1NLxz45BvuGZ7e8fyRRsGXc1gW82SZMOJSY+TNMwGZpbVeuWLsAmRQnubbMPx+61v5epxx7nETmZeejIQRvcXByOWYeyghLEIBfipYKaU1UFTK0hvE3w7kekKr/zj7CyStUpS9qMx0zfEQyrHem6WIM/5/PJ8jR3tApmmtqTeQwfXDi6PoNYrreqMGbA10a1zVw9LzeHZgkzA91O9VqTpVZl0vJv/eyhtIOqvVxhJfVI6ARJxlM4XGW5KB7gcK0xYD4XgFkgP+XEJH2Fh0MlE5Ohm39rj9hUmacyTzxnBZNnm/zfLi9/qD3l8EAD4IvpSjVHD7Waz4KHQkA50cDvcVAk2fxF3zHwLuH9nyl7hj+Vp4WeS7s9oRS9gg54r6AGBIR5secWMh1uOsZbttR6U+d5MMChpIRcf9bPfC+fAJruWIht5EuyfYd8xgtWKLZEjwgwJLRv5/fOCpPm9XTIn4UBjOvKchYC+HK0jHDdJ4PTQb/lmCwWD3tLzTQTU4gr7BLzkDxRx7NDHSgSVAmaGVE2I5Nvxmud8/ZWzuwVHjMSRN3BezvU70K81stzoq9EXbdM0ZobwWgj6bMqmWi8WvGjbk9jkBZqLjcEoTnw5IwjpvjGkpEQEg21KAzRj41Y/avdZr8OAmNcwapgQXZq1uwRiHwAFlb8EUivv3gMWM2NaD+5u6DTgz9/9DN6fdnfJQl2NS7W0fsWEnxmjhjw83H8rERwepBFeV7ZdnRGwMAaySgw8jNeRXPLLEhIHTfX1aFKBBWgplW9J2r+u5+2ntQyxv6FVfuWr75F4EqBmJ4ZT/a1hPVKdMdxdGn/7Mg0nytrrUaqy6U0E6WETo0Skwknv4IG9idCLtmuWwMAg/eHLsV1T+kY427Hlk9jR2HiqEBlQpnV+kShYMNyfo3fHRgeYAs5Arw42oBBpCvcQiLmF2A2Cx4FwJq9/2bT7ragNs/GA/F9xVuz2B7LEthcm6ndxAzBX5mEtj+RhtgHqsCIOcHV7Stu9DaL1TaU/0VnwrF04JR69x5NS9Smsxl37ewSKKTMqzfOqr/YG9nWESXAjEcJybDs5SxYj5I+Yi6XuziMYCefmF2RXibP9MmCKRzlRRbY33owyf3wTW++7XXf9ak6EzOFkW+NjSNWvs3PuiOEqbz9h1G3g8fj/TRNQbtdCDaCeK22+F6LIdbC6XePxOjNikoMedloyx9eCLMIoZ28pDLCHRSNycWOhWlW/3NbKv41xRgF/6LJxS407VoishsYOpuZzO8fdUOycYnAPseWs/eOZIzh85eiESFADI1sFicK301XZWxFel6rGtbwQ9SeXBGlo2Y7H5vfxsL29lnsik/t/MLPOwCoyesaHa9UF8C2/PAPSyQCwXMuoBEROvtCNL0eEG3lCJwbPi6TSGAnCgPTzJNeo5RABA8Iffsv2BjfYae8HaJ/VjnSAGfOcR9q/NQjyzFK8rNPW8VNnrLmObbWYfYisyqtwXqfEeT4TdqweEiIsiqYeLmrUM8Dd7/1RjO+9A2MlM+XzxDXZZGsh75F6cBGF/WVvL4Xdsqyc54bnF5MlGK99GH0FnNEeDd6vzUm9RdErdsJo91rj7x3uR02BqgKPkOOTt7DOn6888t3eGxTjhnaw/A4zNH5kguI2N/DQYQmFXlFMhaxHEFFmULXTQ47ixoXj2UZM2m0q6fQGPkuebDwAmHY5V+zHfyH2MkNjaNVJqkff/M34y5M0IVktN17Xoij5pDvhm16mGhGWvD5mUvsdiOYRufEWAnLOZCfcq7JzAdwW6qEg9INePtteJ6tdaf+tPyOoUPE9nJA4USO4GS3T9htTJRaoELxBU11kvrMT5uBmZLybODHjDpOXR+ZMMEFRm79AFKUnAKHJnhin9mPlIe7MogG9oRL7Z9wyT33sOKi8MfshGbPb3evgesLKykzSfjYG1L8i3wm539oWIjFU4oLBz9c1tN4QzG/k16n0ZLhjG6203mRuU+BV9NVywO1s189jD78KYeQL8s3/A4gmhqWPGns/CZ8RLMhZKPmszc/DQeSO0iNyDbWQUw4NbIsWHYdmmnayZL2QchclI9txQXvS3DNpfLXjBWaVtj7pOr5p1iWPaZoWfjIjorkPulQ4G0vK/i2YG4htP+0uesdP3xpCmgBSjnkEHXZW2nVjX39na9Puj1kywLTgyvI2L5HzVrH3Suxhbh2YBXs5jKSCDVxDUglehtrXQy1EbTUrrFpUO9uRH7HlTK9g7VEyrx/+JRRDGaq5uWTL907PbTot0vIWqbyx1paw7IoL+QiRQDRLXyId95cki5KYfWrNaiq5YuqElMkRIyWqQN3zFOrDkVdb0XVtVqNTjZmhY8mQDCXTLKq28OzUU84WXK7b1YeNWcLoeucO+Ad4/hqi4x/rofXtit2ij1Fek1vyY9Ql7nhntJWnBkq2k+dkD2yQDs1WmmkV5YffCZByH8Kn5ka6SskbLsJCKQXE+P6uboRxZCugLZeFHJsulZSdzquKxIF05pLp1lE9wmEVgqZGKsxv27vpkz6jgsLaCHiStLLwEqft+hyKzuayXVtiWWiElPhg9m+O/SyKB3K8ByTPTq/CobdhquEE2KAwQR8AF8LxNyu5yuOM+3ETR9t6M9hvkdKS6gf9Ukpfa/tj1G3Zbfj2TWXeIlHoMZlHUHf7s0QUrMXyGfCtWvzN/Egtp17+ows6aOFZx9vSSu6zIGqtLH6u6/rmcNgGJpIklLFockIqcUja4DphDi60fm9nVbf/Qkcs2eiuGqQqprZ4E3sr8H9bB4EZ1HzQUjEGSbxgHVvGK1pdka6CgYnpwPW+43nxyuiwBX2w1aIb5r4MWIdqptC7kFgGSH1k4Bd6KWX4X71/g9H7pmVFU5+1posa70SENZhFUh8bmQyHYKuJCIeK/GCT6wKBmycs199TSiI/R9/uCGSjG3uvNSbBB6FOk2H5AB0deh1p6UN3guiveMqZJVz+BuKW/fH7yNDLAxzqAWt8hB/dulo0oc1V/BvZPoMFUVgTKm+E8S16Tv8ZJP6DWjem2o1pnFL92sKDF3v5/0NPP/LYdE1kL9NKlS7MY/oLHQFlg887WoFm2P+dsqudH646IPCxqQZAyE5mJ1KZO9Ooy73q8/i7c5YzsbY7M4nQjEBVdq0XL3Qs2/Z/6pFA/BpHwuUfnBoZypZI7VJHQTUrPoioAvAtliJhXlR1tNL5l6cqcdKScx6p7cj4UMOBVOpESAni783YH11nrIAjKEnxve8KXWufq2zB70qQ57LF6ua5Gcg4tW7MgcVe5yx170pWhiq7RUQNWACiYGmaimdRs2F593aJruPdgTeiu1s/F39OY3Xh56dyKZCF9xZPRmxzGbuenAhsPhM+eD35TSOLpg3R1RAL6A65IU18KEqD/l6b0OfKuIJ4ChsMLwfQTQdY/uV9xpqAeJA1KD86BaDfqcrUK2tllttYJvbq/qhzPiGE9+XK+bnI424jToT+IItfPBCR8DVlBxQxfZoE53cZXIxg/tlLL4O7/MhKRygD8s5zb93f9vah3URgjY/GCoTPskqU/Y4xp5ACoD6IPr80z2AMKI7excsTHm9fqpuy2LnhZ/Qe/UUbl6ix5GUfA+2XGwffsuBp5J3zWqzqNa+Wr6QyThEzwesg2vyYZeomKlcLYmbZ9PsPZuOY/yudeum/3lB+gYXodCAaOPh6kqLQzMmwcbCQWytH1Bnip75ieinYHrO/Y4DzvYIvstKxpVs76cqUgtiArQ0UiLv96CqDDZNs67axIPdFRyIdUaVH476aMzMuo8OmoGPiknPR7x8qHu53xwUvAvtbl/xx2VZknfnizWrjrko1fZPjWgz1lwmDvmcU8tpQUaOb/5zUrO/Y3euyP4H7pbyIKbLPgH5YZ7p7E67i3lZv2/Dr1tQrUKvJKJz79X0ma/pfKTsXkDw/xvqj4l77/4JaLG/C9pIoS4N8xn11szTa/uqu4Dm/E1hHAmQFZ+ZHe2xegVm36m7RZPc64bs9xe/mgfudmJ50RBfXCgM5HwlD3Ec+cj5Yz1zJVNImJzPFqwYB9z8DKNRHayf6t5AWZLpHz/XBpzyaYK3I9GpIU5rtKP5cbi1EdpT/KvB/M2fJwrsq+kn5AbXgheTn3xC3t8iRfq+UK0pT7HtFuy3BzDYP5/EzO2pLNSj9ncRhymOwf52nMX9VfT0rTWSW3tJDBXe03ZoOejwQd3bRsYlpD786Wc0axvqKjI+UOVAvukQ5TGrPrY8IYqtoA+0vPrO8GEbzouDsZWxW9TSFhg2bnnQ2vb//9fLMYJ8uabwXxZmEQm4KlRVMjEBPCb3nLRNNjfkxbYfkkKoYmSPhnvDAQGppkhuy8rZj6Os0eTALWyc5Uq4BIPPUo3NmfRoe7ZzKcCb7z+NUT8d3KsGZXMkgby/8QxG0qwSy2NSqYN3iY6mq7bO24eXxvWujCbca/8jMI5K72qQR6uodPa2G/Q167ARXBi68lzY4fjF69XW0l6Q0wDlnz3DwqYDE3nWXEqbU11X+TVGCKxU0nB4aZfwRo2GHRG7REaAsXIkpMzj1cWH8+GTH/TSEctXlovaH+wUVQ42nZzlEcl1Qa+ADn6YyQi+32QXBHOI4Nas7U+PXmIV4Q5Mbcdva3Vax0jEEiGjBWD4Qb3uIqMirJh2wOa7KatzJ0+lfnbHLXHlMsj8HHDBPleZGx9Nl6eK8DyhhIgdKmZWdf0u4qD9zSssz5ZNcwv+SiLLCsOxnIgojp7FrZLUPoUUC8TThSsejIItNdPBXERCq0jAxGrKDL4QNLj3buUj//cA+rmDAM1BsmfnrvvKzrm1T+TPClCuuLEMBR80+oj5SDoPLJRfeqi75KWTGuSnOqLweE6NZld+4r9ymsgjnbj98Nu3J/wzhHWy3awLhIi3xQVaoifgFUvRyQI3HQo6poEUm3JwnPqrjSDJuAowW3T28KNyUUQFXtr47cow+8IgEcLGDODstggWr/m+8q305tKXhEgOB78JZSzd9CuKbSPcsGK/S5WDKI48FwsKjttRNg1nsTPDkDgaIU5Y+7CrwINtn6qFY8a1zPaKugiVNQl9s0TYestM0BHE76frejJiyu+TqJhDqV5IhOojy8JTPTDLSPblO88PD2LlE9IuyLaAMejClAoODtaOIoUGnUqluT37ZLCGOvd/rV5MJ9lKKqu48gu57vL+dE9cNR+PjfZ0/ekVXTW/yL+56XzrRXRkAhneeLsfUglBZ5k2Ced/uQYhm1SAKPqme5GuYbBZW/l1+52bVd3F38pNsTeLoOENKOu/obhcdOyOOcz0LL56QBy74GG4P8z50NtAQgquvRyoTQcZ4A+lYEBIUJYL/99sf7ve1tD6hhJWUX/RKBIo8ANWYB8UdKGPiZhBeWNmNr1wbDWGNSNXxwqvVV+p3//Eku4hnasdKRixQdGqVHQJ7POYPOP8leyblzMdCpbJXASuZcX67mHojjeZpNe+nnOmC6gAqEWv5bpGgsr5cF/Ksj28NchN7V1X8f1S+z/Q3DraxiPbjOf0Sp2Av30r++yK+IOEXhDUtJHDvTsGv/RjMoQQT/Lxu/I89rVM6f288DOGXiZbLaxPqQBfniyk5Ha45RM3scWDz899EnC9n/j4Cix06AeQwvmDGqiO1FtYp3YmP/oifOlrpxwXK46bY1hrQoPf1sD9z8wxFuQ2h4ucxoc3RaVHp4FsLkAO6lMN5afB2byUc9MA0tVjtXy6YdsdNR5Pf+cN8t/iRXtBeJvh2yyYphVL4q8Dk2db6Y5boCxALyXbN/4puSWWNU0cA8IG3n7M982/BiiKfJXVZRhgApaslPF7gZKJXI8mGnadZAYy64Hvjwt+36/4CAegzvski1ol/sa4K2zrWPeWPUwXa656wa/9tVOTT1mjZK6kdhTy8zGb9N9NKNx3930Xe9BkiTG8PHgo0fG81YFVxgSO124vl1yaAYogVZYhC85ig2iJTAebG4PA2VLlrPga7gw0Etg/iQbmHD2dcpVjBhydX3ESqhl2upgbvyGZ8qkpgpe2imZR7IBN0xFQevx2COcqwzOhQ1nhCg/o/t8UkE0kYcBzMKZfPHlV6KlJgI3L2oDhAeaWj1IBJgDpuRnRGOO9sBQYyjP717JgPuh+7N49kcHXff2+37EDtowaYOlnHVd2cGb4EDgasnpq12gJMfNJmm4zXWB/qM44Tydmmg13hn9EBzOVcZrSbEW/NjjB+mtg+gOdd73jm91X//RJPsqMHH9L9LOZkH12gcJh7Ia8ZnTRVnL/k7fh+QAXn43aQVp0nUP1ZANp+WiDUlXubZK6/5n8pv5LS67yETsrOjJr6bi5lJuTngcAHwr5BHjZTwy8u6/7zOvloCAThbEKWfFBXCVATtupzvhnMwIWop7cn8WSlP3fC8RpvXLdAZPz1nHLy9eYlTrxh5dpjleMxs3kjxR6EJpTHx26CIewoK+61/CrmS86lhuAOckIb15pYHQnzkwHDlVuopl+Fle0NbNkFnrfPpXYeS2siiY+p1xWYC+HCfOGjkc3mq6b3DNMIXP6g0TRg7hjE+Ga6zWH0cvobcoFNE+VwFDI26B/HZkZmACJwOiWSP2Yju1syb8o0w6fy3I/ltz56r+yWQbwevrhDC2JXwTr/ve/Zle68OSCxJQzGHoGrAW7VhwvpyCaqEOOGwiGdt3KkEao2P5DlcTo8rtkoob5EXT3RhTgUVB7y5cg8O8HXN9ScXZMfYRprzVjZt3BYWSgx3zRkeYFIVVKvNoReJrXQAzbt9p6/v7zKP1sXr1FYTLsNIuAynnlDiwJp1O7lrnKPfN3lwPhEV2GfiBXvEfWOSX7JXaPRmw9flLX5g2vlNz6Ri9be4vbo1J4wv3oDBTyAUa8Ta3JxKScvmzooUu1Fd+Ma3XAg/e2UX5fS2nx6tWwgwHK6W2a4WJYsSp+rQz07zru+S5Cq8c1VIMiByw9/kVOVSqOrchjQarJ5iIzZyww82fMqdazyNjDLtNmIkBq5bJ/dEwS74ZOeGLBJopA7gr9XIqsFF9Hderil2CpW27yJ15AMELb3OL34QM9wpl+OBu08RWD5ib5am/uyJb+877a4vYT22OgzP6uilRBs14RoJ+xxSHBNIFP9dbPSdS1bClcuFsTWxt/fM2laKDzpmf9Mny2GzQkkdIY0nOwKzdoUmazO1C9q0sM+HmTIKKSvWrGryj0og67aZFM8S8r8D2PAoW08SY1XWE1KT9S8dLcx4vV4+BzWa99gsUrdqJ23vWyjwHyZh+RKUVVQBSW1aHI1Nods4IMfv3BWA8UylX0BVUjEyNpHdZaMylZYa8IXzhre8c3fhVcH6thzK3rQ2Xd48rd7BsWTdKEJex6L7PTRvce6VsSMaTlYjIOwxjzwX83574pghGpEXNm+i1QETY7N1NmJ+iWD0NcCPNdkz6UhQGcAsPKuGVPM+gNavt+Av7bOz5/VP08fSs5jyZn4VkBmXtlTthFVwc83tg9/8155+HOlboLc9yy6ETvFhwoGnzsYF9g04UkMQYIKtv64Rq2hcQ5oWmu/f71z/tbjIShXT8RzF2MXBc1XbrgxA3Vfq7EHvAINnv7OEBKT16WjXwMUxsL+g6lFmNFoTjulSKZoIta4VtK79CtJgxyhF8znC12TmWrQcppVjx/YMbXDMhx5rGURgVmt/q/a6TQ+yd3YM/nj2lI2mYpO14Xf2jJ9F4AdEHhweM37dnrcr6Qsjtd2utB5iKdUV0tdWXKQCIHuSVIG/SqHiNjLtNGw2p3qXJOlmUrWaXFLrmPkLm7yIxp8uJN19M4ZdgQZ5zubjKGQ/IpE79rgfveJHlHtrFWCy4/mhjxSny+ozyze2xkLg79iY6hKOA72WIAHtbZmqW4I1p6VnH4bSz2pUjXXnwC08k8om+oRztAMXLWu7pCNLr25xdUoDLJeth3dX29r/B33HJqCrySgsfgIZsAb6j51Gf+Uli9v0kavAxp+LEnfheOQV9PhjUvESRlAJhWyukzQZZz8PfPi8pLTXToeuNjvM1C3rFkEY+rUkJOwjtNeklyONibV6VwftZHS18lkZvSejqR1zTC7rmn4UcoIo11vLnZjd+twr4nnZKSPZxkHtBZb7nBxaf1l6umlaL7v7EVMng7FNt4UgxvSL+lRg2ENVBsJN5PZOkTL6pKwo/vX8CNoSV92qF3p9FFrUoIFX+IERpG4jF7vc7lq5/vD8RXrcfkarOYP2r6skpipm0yip/zQmtNiDdSYMi2IpTcslWRpMlLVV3dxT0RQBUPNyFdWWQp0s2JX1MrmcWa7YqGcc3bz0RtWqYkgldJlTKSWCWIDWvCve2EqK+KjG21/bzFn9y3vw+APd7r6by6+K8Peynb/3NR8MQE8m5vDpWIUDQftsw28ysZke+mWuyjq0rKSt8vAvDbAJzDbCppjm6Kq7gFZx7v++9LuvOibo5O+DByaiYN2fedZLTZOCw45rH2q1cQXPWY+qaEI9UAwxAiBprVq7Dmft4S63t8+uRRNfLtfuwZcgwUVHO0ilIcJLAkM2h8hYvqnjzHjuIXAqX142O00yeMsFcvajLqTTULkm/pf2HfrxZ3sR+hpj2WmGbuvmSJoysf+iya/SZphWeU1g2cnO/PZtZJ426uVUB0vXjtQ9NDtQqytEhTDOrh0OIlC7DXkqhQztsC5u2JW0oM0a85JTuCGolfWRBcTSvTBwZ5/VS/cMXfAqd872mixaRmaSCpXdrMsdNhqJfE5CpfxGaEnikS5KIeLWYOo93/FTNwOzPpaSE3Zb6ImaKP+LdUFj/k/0BjFxmy7JPVnqg4p2cQl564C1IVhoO7se2Be7ELWJfVjOAKOed6H0Bf+GrEdx4y1I05OcaZhPhHkOnOM49XNSU5GEmDKWcQfynhMsR8GeHOG/4C1n5l+d4/TbATXvnZAgUcUE/vOchyW8Q2ARPDU8pstQ4DT/iR5OUqZln4EP9i9BnRgqFt0MjlvITDhzdrejcZ2px3c+BKRT9nv6Mm+A+TVPIsAHkOfmVcgM379qZ1ta5nYFBro/lc3z/OWitS4YTnKPCzwYsA4NAsvQx8dF9lzgNKXSRPs/8hh0uC9xDJLrcF3RADwM4uBCZeO4ve+qt12td+VnlRdTSiLjEwNDAirIgZBtccYlFVYRO3M7i0jbbot6EmsxdH2fgsTDPnsFesGAhJXKMYUHG7AvO80Jvc01N7CJPYfMpQcQuealmBFFuN9dYZX1w8zEXOE2wVFaAc7OxCV6Mdz1T3FP1bD9o5K13EsG8uzOWnBy5Z+J9n3cwcyCAvRAOHFCynn3IcpB4u381ECYhlbJ/xj9WtlmvaDUtI4pjTvnCfM0YnfcEp/JA5XW7x55QtCVQmvNVo5ensyb3kUBep7Ogbfy1O9MP9SaTH0fComjopomxSNsq0wAdcBE7DO9pDeQ7Q+nEXcdiiInS0WCoeUlzff27CXnnPOQ4dOtm0YauL8apXZdOxcpJ5JlL4nye4ONoIHp2ZAEI8OHgpCr/jnCnhQUyl+hiPsEu0M8u1+oUUli+bUzS8WnUOiT/XT162KVcNfhwScp3nrI3cvJwDXgqarI+r84toOa3xcoA8M1BsbsjKHqr73w6oBP+2CCbE4XFlXccq3osT4dqzzNqvt7f+FVYQcy34CzP+ayntnxRFkyssvSlbTru6AfdAoqCxUw0/WS1O3B1y1767mJf8ufCEVu0b+BqiVnmdKjCItrBTgAQ7PGEEdN3Xgm9aEpC5AjfQLzSeNgcI3wSDhumk/ub29fiK3PYX0FS62SBI+RJ9p+o6UWnFrPLrZIlbsW/pb/AAi0LQHwG14HVdB756T5XQBx4yn3OOPSVJrVS8T/AmlXDp2+GR2nLy9Cc0p+bqV4Oxi/igMOzk6eChXLeK3/aPiMdR6uWqr6OPyVU/Iv3MA/G5KsQb21dR2Jg8yXa5rYkXqbsRnx3CoZOgkjmO18sgxXh/O50Fi3mO2zONmTv8IUFpU9+BpayrZnVWy05q5DgmhMAP+J7KkZWkUgE2tG06fxQJcZoZ/QQc+PWaN6nJeprS7L8DAGBp4UTzhAv2oV7nM51PiUy32Zzoj140LxQoTJZ+VR/Mvs6sxHAZgjczg8AC+MBiLiRIvWWB1L/9fGJy+srIlqhlLHuAyf3wRnuTeJF7+Bbko/UsWskeq5nASD2c0K+xlTPOyzQJx7v3Nx/jFK9c+J0E9aSaTo3FQirRFxNQyRPS6quT9NS8BLDRHgsdmDkqnodQMeU/ugFbC+kMDcHdw6dBNrerZvplPb3C6NAtMll2z+z5EoF0MpdKsojyyAELa20QhIbxrnbE6ZtQVnPw8+ROWDAeyyOU+QhXQeLkONBBilEyI/yezlVaBmqUeHDp0Vobfr2EHTtZnP8pHbsJrycYAHd3U2F6ovXKsKZBysYR+QN1Wus//JIDrqMHwzjoRBNXuyXVKEwx1Ddz6y/jE59RlhEqj8UWw0VLeudNZLXue/PRItE6x8tNJD7YuXP4O/PSWkDlJVWythkLNe1MuVmVsAiDlvTpC+rRAsosmgqFJEkjrB3Bu4siFT+Xmg31KDgMNDXPW1dFkbObp6yYnZw3eFdby+uXWjH9dNx+4Q2M/PCque/dkDw5TMnr78hrzlr8UIL+8fD4TP+sIBZGFMi4i2lJj02csQtVnEVkArSHY9/HSUAK1+/6C+yZhuZs80z5rPO9ibS5DmdT3Ue8VwAN6swZ0a09XBBQiIYevMJuCzk8Br0YtOVG+66HziKb9JMKYtEl30wiDyGVBAutNWZvwzjCrXtbYWKwM/HSxJZV5tOPEI46XzrRnolfsfXU/AvzKx8qPG3XHMScA30X8oj5uLdcyN38jBFikQEtaD6W8+jYXPNKlYbQx9XR1fslns2EgepaTcWQNp0G/f58pJOLtyqCKAVuBzRe1L+fOdGADKjlbbTOjJMEnP6QWN8qrOsoJmNbJdev/wqEwgfX/4DA6WqGWkSC9VX7qNK+7h5Xz4WQM074bXa0nosmWEnXGiFnUcgUwxhJVROPR0bVO4mJQ8c1ZaS7MnbjKvakt0HI5lgMEW6vQlrfyCWH1k9HRj9qFFQNYCFXMz27XlSe5GfZrw1NKXn9E3/1E/ZoAqdbqodo711nD+yLoe4P51VEJHeXa0/j/c0Xc22svfr22lE6Y0bGfDClJCH9DgiT5zOn5pWvH8IW0CgkdYIcHI/9Yah4fay12S84QYeysoiU78FKrtwxfUyTOWlVpfvtQcPUQ8tlUpCeh3nSJ42EMf6XDjN0FUPfB7LX+T4j9Y7FuPTgvF9hsikA1aEIsYQR//zoYw8kNZN+fbjM2oyhLL1BGEqsnERccUQ48caeuuqPGz7QKq4116xFaW9NsNxZupKbae36x8/+sqYL+sYkrFLrbDG+7b19MP+WzPId2xvMfwZc3W9RnD+cd+/YphfiNv9rGjRfZMYNT/2DK90ylPxuXj85pcSnOC3DOXaP0RgslwyZrh6f0XxrO344mciA8A6QG2fXmS8M4Ny7bIYMKzmABtxlJrovrKptZlTQjq7ZPytetNM8Sd4WY3WMhd/9uP2SVjgRZ83ZofpRcgCssn3xp5H
+        url("assets/images/graduation_cover-full.webp");
+      background-size:cover;background-position:center 45%;filter:saturate(.95) contrast(1.02)
+    }
+    html[data-theme="light"] .hero::before{
+      background-image:
+        linear-gradient(90deg,rgba(239,248,246,.96) 0%,rgba(239,248,246,.88) 35%,rgba(239,248,246,.28) 67%,rgba(239,248,246,.64) 100%),
+        url("assets/images/graduation_cover-full.webp");
+    }
+    .hero::after{
+      content:"";position:absolute;inset:auto 0 0;height:180px;z-index:-1;
+      background:linear-gradient(transparent,var(--bg))
+    }
+    .hero-grid{display:grid;grid-template-columns:1.14fr .86fr;gap:60px;align-items:center}
+    .hero-copy{max-width:730px}
+    .hero-kicker{
+      display:inline-flex;align-items:center;gap:10px;padding:8px 12px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.15);background:rgba(0,0,0,.18);backdrop-filter:blur(8px);
+      color:#dff8f4;font-size:.77rem;font-weight:600;margin-bottom:18px
+    }
+    html[data-theme="light"] .hero-kicker{color:#17414a;background:rgba(255,255,255,.45);border-color:rgba(0,0,0,.08)}
+    .status-dot{width:8px;height:8px;background:var(--ocean);border-radius:50%;box-shadow:0 0 0 5px rgba(55,214,192,.12)}
+    .hero h1{
+      font-family:"DM Serif Display",Georgia,serif;
+      font-size:clamp(3.6rem,8vw,7.4rem);line-height:.82;letter-spacing:-.055em;
+      margin:0 0 22px;max-width:760px;text-wrap:balance
+    }
+    .hero h1 span{display:block;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.55)}
+    html[data-theme="light"] .hero h1 span{-webkit-text-stroke:1px rgba(16,39,45,.5)}
+    .typing-row{font-size:1.08rem;font-weight:700;margin-bottom:17px}
+    #typed{color:var(--ocean)}
+    .cursor{display:inline-block;width:2px;height:1em;background:var(--ocean);vertical-align:-2px;margin-left:3px;animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .hero-desc{color:#d1e2e1;max-width:680px;font-size:1.02rem;margin:0 0 28px}
+    html[data-theme="light"] .hero-desc{color:#35575c}
+    .hero-cta{display:flex;flex-wrap:wrap;gap:12px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:15px;
+      padding:13px 18px;font-weight:750;font-size:.88rem;border:1px solid var(--line);transition:.25s;cursor:pointer
+    }
+    .btn-primary{background:linear-gradient(135deg,var(--ocean),#85f5d1);color:#04262d;border-color:transparent;box-shadow:0 12px 30px rgba(55,214,192,.18)}
+    .btn-secondary{background:rgba(255,255,255,.07);color:var(--text);backdrop-filter:blur(10px)}
+    html[data-theme="light"] .btn-secondary{background:rgba(255,255,255,.6)}
+    .btn:hover{transform:translateY(-2px)}
+    .hero-side{display:flex;justify-content:flex-end;align-items:center}
+    .profile-card{
+      width:min(420px,100%);padding:14px;border-radius:32px;position:relative;
+      background:linear-gradient(145deg,rgba(255,255,255,.16),rgba(255,255,255,.04));
+      border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(16px);box-shadow:0 28px 80px rgba(0,0,0,.32)
+    }
+    .profile-img{height:510px;border-radius:23px;overflow:hidden;position:relative}
+    .profile-img img{width:100%;height:100%;object-fit:cover;object-position:center 31%}
+    .profile-img::after{content:"";position:absolute;inset:auto 0 0;height:46%;background:linear-gradient(transparent,rgba(2,16,22,.86))}
+    .profile-label{position:absolute;left:34px;right:34px;bottom:34px;z-index:2}
+    .profile-label small{color:#d3e6e4}
+    .profile-label h3{font-size:1.18rem;margin:2px 0 0}
+    .floating-note{
+      position:absolute;right:-32px;top:64px;padding:11px 13px;border-radius:15px;background:#fff;color:#10272d;
+      font-size:.78rem;font-weight:800;box-shadow:0 12px 34px rgba(0,0,0,.22);transform:rotate(3deg)
+    }
+    .floating-note b{color:#08776e}
+    .hero-mini-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:34px;max-width:720px}
+    .mini-stat{padding:12px 10px;border-top:1px solid rgba(255,255,255,.22)}
+    html[data-theme="light"] .mini-stat{border-color:rgba(16,39,45,.18)}
+    .mini-stat strong{display:block;font-size:1.28rem;line-height:1.2}
+    .mini-stat span{font-size:.7rem;color:var(--muted)}
+
+    /* about */
+    .about-grid{display:grid;grid-template-columns:.94fr 1.06fr;gap:28px}
+    .portrait-stack{position:relative;min-height:610px}
+    .portrait-main{position:absolute;inset:0 70px 80px 0;border-radius:30px;overflow:hidden;border:1px solid var(--line)}
+    .portrait-main img{width:100%;height:100%;object-fit:cover;object-position:center 32%}
+    .portrait-mini{position:absolute;width:46%;right:0;bottom:0;border-radius:24px;overflow:hidden;border:8px solid var(--bg);box-shadow:var(--shadow)}
+    .portrait-mini img{width:100%;aspect-ratio:1/1.03;object-fit:cover}
+    .quote-card{position:absolute;left:20px;bottom:26px;width:min(330px,62%);padding:18px;border-radius:18px;background:rgba(7,20,27,.82);border:1px solid rgba(255,255,255,.13);backdrop-filter:blur(14px)}
+    html[data-theme="light"] .quote-card{background:rgba(255,255,255,.9)}
+    .quote-card p{margin:0;font-family:"DM Serif Display",serif;font-size:1.08rem;line-height:1.4}
+    .about-copy{padding:18px 0}
+    .about-copy h3{font-family:"DM Serif Display",serif;font-size:2.4rem;line-height:1.05;margin:12px 0 18px}
+    .about-copy p{color:var(--muted);margin:0 0 16px}
+    .focus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:28px}
+    .focus-card{padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+    .focus-icon{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:rgba(55,214,192,.1);font-size:1.2rem;margin-bottom:10px}
+    .focus-card h4{margin:0 0 4px;font-size:.94rem}
+    .focus-card p{font-size:.78rem;margin:0;color:var(--muted)}
+
+    /* timeline */
+    .timeline{position:relative;margin-top:8px}
+    .timeline::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(transparent,var(--line) 7%,var(--line) 93%,transparent)}
+    .tl-item{display:grid;grid-template-columns:1fr 74px 1fr;align-items:center;margin:0 0 24px}
+    .tl-center{display:grid;place-items:center;position:relative}
+    .tl-dot{width:14px;height:14px;border-radius:50%;background:var(--ocean);border:4px solid var(--bg);box-shadow:0 0 0 1px var(--line),0 0 24px rgba(55,214,192,.4)}
+    .tl-card{padding:24px;border-radius:22px;border:1px solid var(--line);background:var(--card)}
+    .tl-card h3{margin:4px 0 8px;font-size:1.08rem;line-height:1.35}
+    .tl-card p{margin:0;color:var(--muted);font-size:.84rem}
+    .tl-date{font-size:.73rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ocean);font-weight:800}
+    .tl-item:nth-child(odd) .tl-card{grid-column:1}
+    .tl-item:nth-child(odd) .tl-center{grid-column:2}
+    .tl-item:nth-child(odd) .tl-photo,.tl-item:nth-child(odd) .tl-placeholder{grid-column:3}
+    .tl-item:nth-child(even) .tl-photo,.tl-item:nth-child(even) .tl-placeholder{grid-column:1}
+    .tl-item:nth-child(even) .tl-center{grid-column:2}
+    .tl-item:nth-child(even) .tl-card{grid-column:3}
+    .tl-photo{height:250px;border-radius:22px;overflow:hidden;border:1px solid var(--line);position:relative}
+    .tl-photo img{width:100%;height:100%;object-fit:cover}
+    .tl-photo .cap{position:absolute;inset:auto 10px 10px;padding:9px 11px;border-radius:12px;background:rgba(0,0,0,.58);color:#fff;font-size:.7rem;backdrop-filter:blur(8px)}
+
+    .tl-placeholder{
+      height:250px;border-radius:22px;border:1px solid var(--line);position:relative;overflow:hidden;
+      display:flex;flex-direction:column;justify-content:flex-end;padding:24px;
+      background:
+        radial-gradient(circle at 80% 20%,rgba(245,203,104,.22),transparent 13rem),
+        linear-gradient(145deg,rgba(90,183,255,.12),rgba(55,214,192,.05));
+    }
+    .tl-placeholder .flag{font-size:2.2rem;margin-bottom:auto}
+    .tl-placeholder strong{font-family:"DM Serif Display",serif;font-size:1.6rem;line-height:1.05}
+    .tl-placeholder small{color:var(--muted);margin-top:5px}
+    /* journey cards */
+    .journey-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .journey-card{border-radius:26px;overflow:hidden;border:1px solid var(--line);background:var(--card);min-height:520px;display:flex;flex-direction:column;transition:.3s}
+    .journey-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+    .journey-media{height:260px;position:relative;overflow:hidden}
+    .journey-media img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+    .journey-card:hover .journey-media img{transform:scale(1.045)}
+    .journey-visual{
+      height:260px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;
+      background:
+        radial-gradient(circle at 72% 20%,rgba(245,203,104,.28),transparent 12rem),
+        radial-gradient(circle at 14% 80%,rgba(55,214,192,.2),transparent 14rem),
+        linear-gradient(145deg,#122c3a,#0b1f29);
+      color:#fff;
+    }
+    .journey-visual .bigflag{font-size:3.2rem;margin-bottom:auto}
+    .journey-visual strong{font-family:"DM Serif Display",serif;font-size:2rem;line-height:1.02}
+    .journey-visual small{color:#c8d9dc;margin-top:7px}
+    .journey-country{position:absolute;left:15px;top:15px;padding:8px 10px;border-radius:99px;background:rgba(0,0,0,.56);color:#fff;font-size:.7rem;font-weight:700;backdrop-filter:blur(8px)}
+    .journey-body{padding:22px;display:flex;flex-direction:column;gap:12px;flex:1}
+    .journey-body h3{font-family:"DM Serif Display",serif;font-size:1.55rem;line-height:1.05;margin:0}
+    .journey-body p{margin:0;color:var(--muted);font-size:.84rem}
+    .journey-meta{margin-top:auto;display:flex;flex-wrap:wrap;gap:7px}
+
+    /* project */
+    .project-feature{
+      display:grid;grid-template-columns:1.04fr .96fr;border-radius:32px;overflow:hidden;border:1px solid var(--line);
+      background:linear-gradient(145deg,rgba(55,214,192,.08),rgba(90,183,255,.04))
+    }
+    .project-image{min-height:580px}
+    .project-image img{width:100%;height:100%;object-fit:cover;object-position:center}
+    .project-copy{padding:46px;display:flex;flex-direction:column;justify-content:center}
+    .project-copy .big-number{font-family:"DM Serif Display",serif;font-size:5.5rem;line-height:.8;color:var(--sun);margin:18px 0 10px}
+    .project-copy h3{font-family:"DM Serif Display",serif;font-size:2.6rem;line-height:1.02;margin:0 0 15px}
+    .project-copy p{color:var(--muted);margin:0 0 15px}
+    .project-list{display:grid;gap:10px;margin:16px 0 24px}
+    .project-list div{display:flex;gap:10px;align-items:flex-start;font-size:.84rem}
+    .project-list span:first-child{width:26px;height:26px;display:grid;place-items:center;flex:0 0 26px;border-radius:8px;background:rgba(55,214,192,.1)}
+
+    /* academics */
+    .academic-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}
+    .education-card,.skills-card{padding:30px;border-radius:26px;border:1px solid var(--line);background:var(--card)}
+    .education-card h3,.skills-card h3{font-family:"DM Serif Display",serif;font-size:2rem;margin:4px 0 12px}
+    .degree{padding:18px 0;border-top:1px solid var(--line)}
+    .degree:first-of-type{border-top:none}
+    .degree-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+    .degree-head h4{margin:0;font-size:1rem}
+    .degree-head span{font-size:.76rem;color:var(--ocean);font-weight:700;white-space:nowrap}
+    .degree p{margin:8px 0 0;color:var(--muted);font-size:.83rem}
+    .skill-cloud{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
+    .skill-pill{padding:10px 12px;border-radius:12px;background:var(--card-strong);border:1px solid var(--line);font-size:.78rem}
+    .metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:22px}
+    .metric{padding:18px;border-radius:18px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(55,214,192,.06),transparent)}
+    .metric strong{font-family:"DM Serif Display",serif;font-size:2.3rem;display:block;line-height:1}
+    .metric span{font-size:.72rem;color:var(--muted)}
+
+    /* gallery */
+    .gallery-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:-20px 0 28px}
+    .filter-btn{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;padding:9px 12px;cursor:pointer;font-size:.76rem;font-weight:700}
+    .filter-btn.active{background:var(--text);color:var(--bg)}
+    .gallery{
+      display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:82px;gap:12px
+    }
+    .gallery-item{border-radius:20px;overflow:hidden;position:relative;border:1px solid var(--line);cursor:zoom-in;background:var(--card)}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s,filter .3s}
+    .gallery-item:hover img{transform:scale(1.045);filter:saturate(1.1)}
+    .gallery-item::after{content:attr(data-caption);position:absolute;inset:auto 8px 8px;padding:8px 10px;border-radius:10px;background:rgba(0,0,0,.55);color:#fff;font-size:.66rem;opacity:0;transform:translateY(6px);transition:.25s;backdrop-filter:blur(8px)}
+    .gallery-item:hover::after{opacity:1;transform:none}
+    .g1{grid-column:span 5;grid-row:span 5}.g2{grid-column:span 3;grid-row:span 5}.g3{grid-column:span 4;grid-row:span 4}
+    .g4{grid-column:span 4;grid-row:span 4}.g5{grid-column:span 4;grid-row:span 5}.g6{grid-column:span 4;grid-row:span 4}
+    .g7{grid-column:span 3;grid-row:span 5}.g8{grid-column:span 5;grid-row:span 5}.g9{grid-column:span 4;grid-row:span 5}
+
+    /* interests */
+    .interest-grid{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:16px}
+    .interest-card{min-height:360px;border-radius:26px;overflow:hidden;position:relative;border:1px solid var(--line)}
+    .interest-card img{width:100%;height:100%;object-fit:cover}
+    .interest-overlay{position:absolute;inset:0;background:linear-gradient(transparent 34%,rgba(3,14,20,.88));display:flex;flex-direction:column;justify-content:flex-end;padding:24px;color:#fff}
+    .interest-overlay h3{font-family:"DM Serif Display",serif;font-size:1.8rem;margin:0 0 5px}
+    .interest-overlay p{font-size:.78rem;color:#d2e1e0;margin:0}
+
+    /* contact */
+    .contact-wrap{border-radius:34px;padding:50px;background:
+      radial-gradient(circle at 80% 20%,rgba(90,183,255,.18),transparent 18rem),
+      radial-gradient(circle at 20% 80%,rgba(55,214,192,.16),transparent 20rem),
+      var(--card);border:1px solid var(--line);position:relative;overflow:hidden
+    }
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px}
+    .contact-copy h2{font-family:"DM Serif Display",serif;font-size:clamp(2.7rem,5vw,5rem);line-height:.92;margin:12px 0 18px}
+    .contact-copy p{color:var(--muted);max-width:500px}
+    .contact-list{display:grid;gap:10px;margin-top:26px}
+    .contact-row{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:.86rem}
+    .contact-row .ci{width:38px;height:38px;border-radius:12px;background:var(--card-strong);display:grid;place-items:center;border:1px solid var(--line)}
+    .contact-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .field{display:grid;gap:7px}.field.full{grid-column:1/-1}
+    .field label{font-size:.72rem;font-weight:700;color:var(--muted)}
+    .field input,.field textarea{
+      width:100%;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);border-radius:14px;padding:13px 14px;outline:none
+    }
+    html[data-theme="light"] .field input,html[data-theme="light"] .field textarea{background:rgba(255,255,255,.72)}
+    .field input:focus,.field textarea:focus{border-color:var(--ocean);box-shadow:0 0 0 3px rgba(55,214,192,.1)}
+    .field textarea{min-height:132px;resize:vertical}
+
+    .sources{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+    .source-link{font-size:.68rem;color:var(--muted);border-bottom:1px dashed var(--line)}
+    footer{padding:30px 0 42px;color:var(--muted);font-size:.72rem}
+    .footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center;border-top:1px solid var(--line);padding-top:24px}
+
+    /* lightbox */
+    .lightbox{position:fixed;z-index:2000;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;padding:30px}
+    .lightbox.open{display:flex}
+    .lightbox img{max-height:86vh;max-width:min(1050px,92vw);border-radius:18px;box-shadow:0 20px 80px rgba(0,0,0,.55)}
+    .lb-close{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;font-size:1.35rem;cursor:pointer}
+    .lb-caption{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);color:#fff;background:rgba(0,0,0,.48);padding:8px 12px;border-radius:10px;font-size:.75rem;text-align:center;max-width:80vw}
+
+    /* responsive */
+    @media (max-width:980px){
+      .nav-links{display:none}.menu-btn{display:grid}
+      .mobile-menu{
+        position:fixed;z-index:998;top:88px;right:16px;width:min(320px,calc(100% - 32px));
+        padding:12px;border-radius:18px;background:rgba(5,18,24,.94);border:1px solid var(--line);
+        backdrop-filter:blur(18px)
+      }
+      html[data-theme="light"] .mobile-menu{background:rgba(249,252,251,.96)}
+      .mobile-menu.open{display:grid}
+      .mobile-menu a{padding:12px;border-radius:12px;color:var(--muted);font-size:.84rem}.mobile-menu a:hover{background:var(--card);color:var(--text)}
+      .hero-grid,.about-grid,.project-feature,.academic-grid,.contact-grid{grid-template-columns:1fr}
+      .hero-side{display:none}.hero-copy{max-width:760px}
+      .hero::before{background-position:64% center}
+      .section-head{grid-template-columns:1fr}
+      .portrait-stack{min-height:650px}
+      .journey-grid{grid-template-columns:1fr 1fr}.journey-card:last-child{grid-column:1/-1;min-height:450px}.journey-card:last-child .journey-media{height:320px}
+      .interest-grid{grid-template-columns:1fr 1fr}.interest-card:first-child{grid-column:1/-1}
+    }
+    @media (max-width:720px){
+      .container{width:min(100% - 26px,var(--max))}
+      .section{padding:82px 0}
+      .nav{height:58px;top:10px}
+      .brand small{display:none}
+      .hero{min-height:96svh;padding-top:98px}
+      .hero::before{
+        background-image:
+          linear-gradient(180deg,rgba(3,16,23,.48),rgba(3,16,23,.9) 58%,rgba(3,16,23,.98)),
+          url("assets/images/graduation_cover-full.webp");
+        background-position:66% center
+      }
+      html[data-theme="light"] .hero::before{
+        background-image:
+          linear-gradient(180deg,rgba(239,248,246,.35),rgba(239,248,246,.86) 59%,rgba(239,248,246,.98)),
+          url("assets/images/graduation_cover-full.webp")
+      }
+      .hero h1{font-size:clamp(3.2rem,18vw,5.2rem)}
+      .hero-mini-stats{grid-template-columns:1fr 1fr}
+      .mini-stat{border-top:1px solid var(--line)}
+      .section-title{font-size:clamp(2.6rem,13vw,4.2rem)}
+      .portrait-stack{min-height:520px}
+      .portrait-main{inset:0 38px 65px 0}.portrait-mini{width:45%}.quote-card{left:12px;bottom:17px;width:64%;padding:13px}.quote-card p{font-size:.92rem}
+      .focus-grid{grid-template-columns:1fr}
+      .timeline::before{left:13px}
+      .tl-item{grid-template-columns:28px 1fr;gap:10px;margin-bottom:18px}
+      .tl-center{grid-column:1!important;grid-row:1/3}.tl-card,.tl-photo,.tl-placeholder{grid-column:2!important}.tl-card{grid-row:1}.tl-photo,.tl-placeholder{grid-row:2;height:210px}
+      .journey-grid{grid-template-columns:1fr}.journey-card:last-child{grid-column:auto}.journey-card{min-height:0}
+      .project-copy{padding:28px}.project-image{min-height:440px}.project-copy .big-number{font-size:4.3rem}
+      .education-card,.skills-card{padding:22px}
+      .gallery{grid-template-columns:1fr 1fr;grid-auto-rows:160px}
+      .gallery-item{grid-column:span 1!important;grid-row:span 1!important}.gallery-item:nth-child(3n+1){grid-column:1/-1!important}
+      .interest-grid{grid-template-columns:1fr}.interest-card:first-child{grid-column:auto}.interest-card{min-height:330px}
+      .contact-wrap{padding:28px 18px}.contact-form{grid-template-columns:1fr}.field.full{grid-column:auto}
+      .footer-row{flex-direction:column;align-items:flex-start}
+    }
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.cursor{animation:none}.journey-card:hover,.btn:hover{transform:none}}
+  
+
+    /* ===== 2026 readability + photo-preservation update ===== */
+    body, button, input, textarea{
+      font-family:"Times New Roman",Times,serif;
+      font-size:17px;
+      line-height:1.72;
+    }
+    .section-title,.hero h1,.about-copy h3,.quote-card p,.journey-body h3,
+    .project-copy .big-number,.project-copy h3,.education-card h3,.skills-card h3,
+    .metric strong,.contact-copy h2,.interest-overlay h3,.tl-placeholder strong{
+      font-family:"Times New Roman",Times,serif !important;
+      letter-spacing:-.02em;
+    }
+    .section-title,.hero h1{font-weight:700}
+    .nav-links a,.tag,.eyebrow,.filter-btn,.tl-date,.journey-country,.source-link,
+    .degree-head span,.metric span,.brand small{letter-spacing:.035em}
+
+    /* Keep meaningful backgrounds/scenery visible instead of forcing photos into square crops. */
+    .smart-fit{position:relative;isolation:isolate;background:var(--bg2);overflow:hidden}
+    .smart-fit::before{
+      content:"";position:absolute;inset:-18px;z-index:0;
+      background-image:var(--fit-bg);background-size:cover;background-position:center;
+      filter:blur(18px) brightness(.48) saturate(.9);transform:scale(1.09);opacity:.72;
+    }
+    html[data-theme="light"] .smart-fit::before{filter:blur(18px) brightness(.78) saturate(.85);opacity:.55}
+    .smart-fit::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(135deg,rgba(0,0,0,.08),rgba(0,0,0,.22))}
+    .smart-fit > img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain !important;object-position:center !important}
+    .smart-fit > .cap,.smart-fit > .journey-country{z-index:3}
+
+    .project-image{min-height:650px}
+    .project-image.smart-fit img{padding:14px}
+
+    /* KMITL: three-photo academic strip, preserving the full landscape photo. */
+    .kmitl-extra{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:4px}
+    .kmitl-extra .k-photo{height:150px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+    .kmitl-extra .k-photo img{width:100%;height:100%;object-fit:cover}
+
+    /* Photo journal becomes a real masonry-style journal: original aspect ratios are retained. */
+    .gallery{display:block;columns:3 300px;column-gap:14px}
+    .gallery-item,.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9{
+      display:block;break-inside:avoid;grid-column:auto;grid-row:auto;
+      width:100%;margin:0 0 14px;border-radius:20px;
+    }
+    .gallery-item img{width:100%;height:auto !important;object-fit:contain !important;transform:none !important}
+    .gallery-item:hover img{transform:none !important;filter:saturate(1.07)}
+    .gallery-item::after{opacity:1;transform:none;background:linear-gradient(90deg,rgba(0,0,0,.66),rgba(0,0,0,.28));right:auto;max-width:calc(100% - 16px)}
+
+    @media (max-width:980px){
+      .journey-grid{grid-template-columns:1fr 1fr}
+      .journey-card:last-child{grid-column:1/-1}
+      .gallery{columns:2 260px}
+    }
+    @media (max-width:720px){
+      body,button,input,textarea{font-size:16px}
+      .gallery{columns:1}
+      .project-image{min-height:520px}
+      .kmitl-extra .k-photo{height:135px}
+    }
+
+    .kmitl-extra .k-photo{height:210px}
+    .kmitl-extra .k-photo > img{object-fit:contain !important}
+    @media (max-width:720px){.kmitl-extra .k-photo{height:180px}}
+
+
+    /* ===== FINAL POLISH: preserved NUS photo + northern road-trip journal ===== */
+    #about .portrait-stack{min-height:660px}
+    #about .portrait-main{
+      inset:auto !important;top:0;left:0;right:42px;height:420px;
+      border-radius:30px;box-shadow:var(--shadow);
+    }
+    #about .portrait-main.smart-fit > img{padding:10px;object-fit:contain !important}
+    #about .portrait-main.smart-fit::before{filter:blur(22px) brightness(.52) saturate(.95);opacity:.78}
+    #about .portrait-mini{width:45%;right:0;bottom:0}
+    #about .quote-card{
+      left:0 !important;bottom:18px !important;width:49% !important;max-width:292px;
+      padding:16px 17px;z-index:6;
+    }
+    #about .quote-card p{font-size:1rem;line-height:1.42}
+
+    .vietshrimp-photo > img{padding:8px}
+
+    .north-trip{
+      margin:0 0 34px;padding:28px;border:1px solid var(--line);border-radius:30px;
+      background:linear-gradient(145deg,var(--card),rgba(55,214,192,.035));box-shadow:var(--shadow);overflow:hidden;
+    }
+    .north-trip-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:end;margin-bottom:22px}
+    .north-trip-copy h3{
+      font-family:"Times New Roman",Times,serif;font-size:clamp(1.8rem,3.1vw,3rem);line-height:1.05;
+      margin:14px 0 12px;letter-spacing:-.025em;
+    }
+    .north-trip-copy p{max-width:850px;color:var(--muted);margin:0}
+    .north-trip-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+    .north-trip-hint{white-space:nowrap;color:var(--muted);font-size:.82rem;padding-bottom:4px}
+    .north-strip{
+      display:flex;gap:14px;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x proximity;
+      padding:2px 3px 14px;scrollbar-width:thin;scrollbar-color:var(--ocean) transparent;
+    }
+    .north-strip::-webkit-scrollbar{height:7px}
+    .north-strip::-webkit-scrollbar-thumb{background:var(--ocean);border-radius:99px}
+    .north-shot{
+      flex:0 0 265px;height:350px;margin:0;border-radius:20px;border:1px solid var(--line);scroll-snap-align:start;
+      cursor:zoom-in;box-shadow:0 16px 40px rgba(0,0,0,.16);
+    }
+    .north-shot.wide{flex-basis:390px}
+    .north-shot > img{padding:8px;transition:transform .25s ease}
+    .north-shot:hover > img{transform:scale(1.015)}
+    .north-shot figcaption{
+      position:absolute;z-index:5;left:10px;right:10px;bottom:10px;padding:9px 11px;border-radius:12px;
+      color:#fff;background:rgba(0,0,0,.58);backdrop-filter:blur(8px);font-size:.74rem;line-height:1.35;
+    }
+    .north-shot:focus-visible{outline:2px solid var(--ocean);outline-offset:3px}
+
+    @media(max-width:720px){
+      #about .portrait-stack{min-height:590px}
+      #about .portrait-main{right:0;height:345px}
+      #about .portrait-mini{width:43%;bottom:0}
+      #about .quote-card{left:0 !important;bottom:8px !important;width:53% !important;max-width:none;padding:12px}
+      #about .quote-card p{font-size:.9rem}
+      .north-trip{padding:20px;margin-bottom:24px;border-radius:24px}
+      .north-trip-head{grid-template-columns:1fr;gap:10px}
+      .north-trip-hint{white-space:normal}
+      .north-shot{flex-basis:240px;height:320px}
+      .north-shot.wide{flex-basis:330px}
+    }
+
+
+/* Portfolio English edition — extensions to the original visual design */
+:root{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+.hero::before{background-position:center, center; background-size:cover,cover}
+.hero-copy{max-width:720px}
+.hero-desc{max-width:650px}
+.hero-mini-stats{flex-wrap:wrap}
+.hero-mini-stats .mini-stat{min-width:128px}
+.section-lead{max-width:580px}
+.about-copy p,.journey-body p,.tl-card p,.project-copy p{line-height:1.73}
+.hero-kicker{max-width:100%}
+.typing-row{line-height:1.35}
+.quote-card p{font-size:1rem}
+.section-title{letter-spacing:-.028em}
+.profile-img img{object-position:center 30%}
+.personal-footnote{display:flex;align-items:center;gap:18px;margin-top:26px;margin-left:auto;max-width:580px;padding:14px;border:1px solid var(--line);border-radius:22px;background:var(--card)}
+.personal-footnote-image{flex:0 0 106px;width:106px;height:135px;overflow:hidden;border-radius:15px}
+.personal-footnote-image img{width:100%;height:100%;object-fit:cover;object-position:center}
+.personal-footnote p{margin:8px 0 0;color:var(--muted);font-size:.86rem}
+.personal-footnote .tag{color:var(--ocean)}
+.muted-em{font-style:italic}
+.technical-panel,.lab-panel{margin-top:28px;display:grid;grid-template-columns:1fr 1.16fr;gap:28px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:28px;padding:26px;overflow:hidden}
+.technical-panel-copy h3,.lab-panel-copy h3{font-family:'DM Serif Display',Georgia,serif;font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.12;margin:12px 0 16px}
+.technical-panel-copy p,.lab-panel-copy p{color:var(--muted);font-size:.92rem;line-height:1.75}
+.technical-panel-photos{display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:160px 160px;gap:12px;min-height:320px}
+.technical-photo{border-radius:18px;position:relative;overflow:hidden;border:1px solid var(--line);background:var(--card-strong)}
+.technical-photo.large{grid-row:1/3}
+.technical-photo img{width:100%;height:100%;object-fit:cover}
+.lab-panel{grid-template-columns:1.16fr 1fr}
+.lab-panel-images{display:grid;grid-template-columns:1fr 1fr;gap:12px;min-height:280px;height:100%}
+.lab-panel-images>div{border-radius:16px;overflow:hidden;min-height:250px;background:var(--card-strong)}
+.lab-panel-images img{width:100%;height:100%;object-fit:cover}
+.caution-note{font-size:.76rem!important;opacity:.78;line-height:1.55!important}
+.gallery-item:focus-visible{outline:2px solid var(--ocean);outline-offset:4px}
+.filter-btn:focus-visible,.btn:focus-visible{outline:2px solid var(--ocean);outline-offset:2px}
+.footer-row{flex-wrap:wrap}
+@media(min-width:980px){.hero-grid{grid-template-columns:minmax(0,1.25fr) minmax(275px,.75fr)}.hero h1{font-size:clamp(3.6rem,6vw,6.3rem)}}
+@media(max-width:860px){.technical-panel,.lab-panel{grid-template-columns:1fr}.technical-panel-photos{order:-1}.lab-panel-images{min-height:250px}}
+@media(max-width:720px){.hero::before{background-image:linear-gradient(90deg,rgba(3,16,23,.9),rgba(3,16,23,.77)),url("assets/images/graduation_cover-preview.webp")}.technical-panel,.lab-panel{padding:18px;gap:16px}.technical-panel-photos{grid-template-rows:130px 130px;min-height:260px}.lab-panel-images>div{min-height:210px}.personal-footnote{padding:10px;gap:12px}.personal-footnote-image{flex-basis:85px;width:85px;height:110px}.hero-mini-stats .mini-stat{min-width:100px}.hero-side{max-width:420px;margin:24px auto 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none}.cursor{animation:none}}
+
+/* ===== REFINEMENT V2: editorial photo geometry; no image cropping ===== */
+/* Each photographic block follows the source ratio, instead of fitting a portrait into a landscape box. */
+.smart-fit{isolation:auto;background:transparent;overflow:visible}
+.smart-fit::before,.smart-fit::after{display:none!important}
+.smart-fit > img{width:100%;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;padding:0!important;display:block;position:static}
+
+/* Timeline: retain its alternating left/right rhythm, but let frames follow the image. */
+.tl-item{align-items:center;column-gap:0;margin-bottom:34px}
+.tl-photo{height:auto!important;width:100%;display:flex;flex-direction:column;justify-self:center;align-self:center;overflow:visible;border:1px solid var(--line);background:var(--card);border-radius:22px;box-shadow:0 12px 38px rgba(0,0,0,.11)}
+.tl-photo.photo-portrait{width:min(100%,292px)}
+.tl-photo.photo-landscape{width:100%}
+.tl-photo.photo-square{width:min(100%,430px)}
+.tl-photo img,.tl-photo.smart-fit > img{width:100%;height:auto!important;display:block;object-fit:contain!important;border-radius:20px 20px 0 0;padding:0!important}
+.tl-photo .cap{position:static;inset:auto;display:block;background:var(--card-strong);color:var(--muted);backdrop-filter:none;padding:10px 14px;font-size:.76rem;line-height:1.5;border-radius:0 0 20px 20px}
+html[data-theme="light"] .tl-photo .cap{color:var(--text)}
+
+/* About: two intentional portrait placements; no sideways letterbox. */
+#about .portrait-stack{min-height:0!important;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.86fr);grid-template-rows:auto auto;column-gap:14px;row-gap:14px;align-items:end}
+#about .portrait-main{position:relative!important;inset:auto!important;top:auto!important;left:auto!important;right:auto!important;bottom:auto!important;grid-column:1;grid-row:1/3;height:auto!important;width:100%;overflow:hidden}
+#about .portrait-main img{width:100%;height:auto!important;object-fit:contain!important;padding:0!important}
+#about .portrait-mini{position:relative!important;right:auto!important;bottom:auto!important;grid-column:2;grid-row:1;width:100%!important;border:0;border-radius:24px;overflow:hidden}
+#about .portrait-mini img{width:100%;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
+#about .quote-card{position:relative!important;left:auto!important;bottom:auto!important;grid-column:2;grid-row:2;width:100%!important;max-width:none!important;padding:13px!important}
+#about .quote-card p{font-size:.95rem}
+
+/* Preserve the entire hero-side photo. */
+.profile-img{height:auto;overflow:hidden}
+.profile-img img{width:100%;height:auto!important;display:block;object-fit:contain!important;object-position:center!important}
+.profile-img::after{pointer-events:none}
+
+/* International photos: native ratio, not a prescribed 260px window. */
+.journey-media,.journey-card:last-child .journey-media{height:auto!important;min-height:0!important;background:transparent;overflow:hidden}
+.journey-media img,.journey-media.smart-fit > img{width:100%;height:auto!important;object-fit:contain!important;display:block;transform:none!important}
+.journey-card:hover .journey-media img{transform:none!important}
+.journey-card{min-height:0}
+
+/* TRIbaLINGUAL: portrait project collage sits in a deliberately narrower column. */
+.project-feature{grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);align-items:center;overflow:hidden}
+.project-image{min-height:0!important;height:auto!important;margin:22px;overflow:hidden;border-radius:20px}
+.project-image img,.project-image.smart-fit > img{height:auto!important;width:100%;object-fit:contain!important;display:block;padding:0!important}
+.project-copy{padding:32px 30px 32px 10px}
+.project-copy .big-number{font-variant-numeric:tabular-nums}
+
+/* Technical photos are all the same polychaete activity, intentionally grouped. */
+.technical-panel-photos{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto auto;align-items:start;gap:12px;min-height:0;height:auto}
+.technical-photo{overflow:hidden;height:auto!important;min-height:0!important}
+.technical-photo.large{grid-column:1/-1;grid-row:auto}
+.technical-photo img,.technical-photo.smart-fit > img{height:auto!important;width:100%;display:block;object-fit:contain!important}
+.lab-panel-images{height:auto!important;min-height:0!important;align-items:start}
+.lab-panel-images>div{height:auto!important;min-height:0!important;overflow:hidden}
+.lab-panel-images img,.lab-panel-images .smart-fit>img{height:auto!important;width:100%;object-fit:contain!important;display:block}
+.personal-footnote-image{height:auto!important;overflow:hidden;align-self:center}
+.personal-footnote-image img{height:auto!important;width:100%;object-fit:contain!important;display:block}
+
+/* Gallery was already laid out as a natural-ratio masonry gallery; enforce zero cropping. */
+.gallery-item img{height:auto!important;object-fit:contain!important;display:block}
+.gallery-item:hover img{transform:none!important}
+
+/* Clear contact messenger icons without external image dependencies. */
+.contact-row .ci svg{display:block;width:21px;height:21px;color:var(--ocean)}
+/* Numbers have a subtle active appearance when they enter the viewport. */
+.count{display:inline-block;font-variant-numeric:tabular-nums;white-space:nowrap}
+.mini-stat strong{font-size:clamp(1.25rem,1.8vw,1.65rem);font-weight:800;white-space:nowrap}
+.mini-stat{min-width:0}
+.mini-stat span:not(.count){line-height:1.35;display:block}
+
+/* Light lift as photos enter, plus a very small scroll-linked movement. */
+.photo-lift{opacity:1;transform:none;transition:opacity .85s ease,transform 1s cubic-bezier(.22,1,.36,1);will-change:transform}
+.photo-lift.motion-ready:not(.is-in-view){opacity:.78;transform:translate3d(0,20px,0)}
+.photo-lift.motion-ready.is-in-view{opacity:1;transform:translate3d(0,var(--scroll-lift,0px),0)}
+.photo-lift[role="button"]:focus-visible{outline:2px solid var(--ocean);outline-offset:4px}
+
+@media(max-width:980px){
+  .project-feature{grid-template-columns:1fr}
+  .project-image{max-width:min(480px,100%);width:calc(100% - 44px);margin:22px auto 4px}
+  .project-copy{padding:20px 28px 34px}
+}
+@media(max-width:720px){
+  .tl-photo.photo-portrait{width:min(100%,300px)}
+  .tl-photo,.tl-photo.photo-landscape,.tl-photo.photo-square{height:auto!important}
+  .tl-photo img{height:auto!important}
+  #about .portrait-stack{gap:10px}
+  #about .quote-card{padding:10px!important}
+  #about .quote-card p{font-size:.82rem}
+  .technical-panel-photos{grid-template-columns:1fr 1fr;grid-template-rows:auto auto;min-height:0!important}
+  .technical-panel-photos .large{grid-column:1/-1}
+  .lab-panel-images{grid-template-columns:1fr 1fr;gap:10px}
+  .personal-footnote-image{flex-basis:85px;width:85px}
+  .hero-mini-stats .mini-stat{min-width:0}
+}
+@media(prefers-reduced-motion:reduce){
+  .photo-lift,.photo-lift.motion-ready:not(.is-in-view),.photo-lift.motion-ready.is-in-view{opacity:1!important;transform:none!important;transition:none!important;will-change:auto}
+  .reveal{opacity:1!important;transform:none!important;transition:none!important}
+}
+
+.lang-btn{display:inline-flex;align-items:center;gap:6px;padding:0 14px;height:46px;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);font-weight:800;letter-spacing:.04em;cursor:pointer;transition:.25s}
+.lang-btn:hover{transform:translateY(-1px);border-color:rgba(55,214,192,.45);box-shadow:0 12px 28px rgba(0,0,0,.14)}
+.lang-btn .lang-sep,.lang-btn .lang-alt{opacity:.6}
+.lang-btn[data-lang="vi"] .lang-current{opacity:.6}
+.lang-btn[data-lang="vi"] .lang-alt{opacity:1;color:var(--ocean)}
+.lang-btn[data-lang="en"] .lang-current{opacity:1;color:var(--ocean)}
+.lang-btn[data-lang="en"] .lang-alt{opacity:.65}
+html[data-theme="light"] .lang-btn{background:rgba(255,255,255,.72)}
+@media (max-width:700px){.lang-btn{height:42px;padding:0 12px;font-size:.84rem}}
+
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<nav aria-label="Main navigation" class="nav">
+<a aria-label="Về đầu trang" class="brand" href="#home">
+<span class="brand-mark">K</span>
+<span>Minh Khôi<small>Aquaculture portfolio</small></span>
+</a>
+<div class="nav-links"><a href="#about">About</a><a href="#journey">Experience</a><a href="#global">International</a><a href="#project">Project</a><a href="#academics">Academics</a><a href="#gallery">Photos</a><a href="#contact">Contact</a></div>
+<div class="nav-actions">
+<button aria-label="Switch language" class="lang-btn" id="langBtn" type="button"><span class="lang-current">EN</span><span class="lang-sep">/</span><span class="lang-alt">VI</span></button>
+<button aria-label="Switch color theme" class="icon-btn" id="themeBtn">☾</button>
+<button aria-label="Open mobile menu" class="icon-btn menu-btn" id="menuBtn">☰</button>
+</div>
+</nav>
+<div class="mobile-menu" id="mobileMenu"><a href="#about">About</a><a href="#journey">Experience</a><a href="#global">International</a><a href="#project">Project</a><a href="#academics">Academics</a><a href="#gallery">Photos</a><a href="#contact">Contact</a></div>
+<main><section class="hero" id="home"><div class="container hero-grid">
+<div class="hero-copy reveal"><div class="hero-kicker"><span class="status-dot"></span>Aquaculture Engineer · Can Tho, Vietnam</div>
+<h1>Dang Nguyen <span>Minh Khoi.</span></h1>
+<div class="typing-row">Focused on <span id="typed">aquaculture market development</span><span class="cursor"></span></div>
+<p class="hero-desc">I am an aquaculture graduate and Master's student based in the Mekong Delta. I bring together local industry connections, practical aquaculture knowledge and communication skills to help new solutions reach farmers and businesses. I am especially interested in science-based approaches that support animal health and reduce the need for antibiotics.</p>
+<div class="hero-cta"><a class="btn btn-primary" href="#journey">Explore My Experience ↘</a><a class="btn btn-secondary" href="#contact">Get in Touch</a></div>
+<div class="hero-mini-stats">
+<div aria-label="Two VietShrimp fairs" class="mini-stat"><strong class="count" data-pad="2" data-target="2">02</strong><span>VietShrimp fairs</span></div>
+<div aria-label="Three years of polychaete culture practice" class="mini-stat"><strong><span class="count" data-pad="2" data-target="3">03</span> years</strong><span>Polychaete culture practice</span></div>
+<div aria-label="TOEIC score of 695" class="mini-stat"><strong class="count" data-target="695">695</strong><span>TOEIC · Working English</span></div>
+<div aria-label="Top ten out of forty AUS team projects" class="mini-stat"><strong>Top <span class="count" data-target="10">10</span>/40</strong><span>AUS team project</span></div>
+</div></div>
+<div class="hero-side reveal"><div class="profile-card photo-lift"><div class="profile-img"><img alt="Minh Khoi at Regen Asia Summit, Singapore 2025" class="" data-full="assets/images/regeneration_summit_portrait-full.webp" decoding="async" height="4096" loading="eager" sizes="(max-width:700px) 90vw, 32vw" src="assets/images/regeneration_summit_portrait-preview.webp" srcset="assets/images/regeneration_summit_portrait-preview.webp 960w, assets/images/regeneration_summit_portrait-full.webp 2200w" width="2594"/>
+<div class="profile-label"><small>Singapore · 2025</small><h3>Regen Asia Summit</h3></div></div><div class="floating-note">From <b>aquaculture</b><br/>to market opportunities ✦</div></div></div>
+</div></section><section class="section" id="about"><div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">01 • About me</span><h2 class="section-title">Rooted in aquaculture.<br/>Open to new opportunities.</h2></div><p class="section-lead">Growing up around the aquaculture industry has shaped both my interests and the way I connect with people in the Mekong Delta.</p></div>
+<div class="about-grid"><div class="portrait-stack reveal">
+<div class="portrait-main smart-fit photo-lift"><img alt="Minh Khoi at the College of Aquaculture and Fisheries, Can Tho University" class="" data-full="assets/images/ctu_aquaculture_portrait-full.webp" decoding="async" height="2655" loading="lazy" sizes="(max-width:700px) 65vw, 30vw" src="assets/images/ctu_aquaculture_portrait-preview.webp" srcset="assets/images/ctu_aquaculture_portrait-preview.webp 960w, assets/images/ctu_aquaculture_portrait-full.webp 1493w" width="1493"/></div>
+<div class="portrait-mini smart-fit photo-lift"><img alt="An everyday moment at the university aquaculture facility" class="" data-full="assets/images/ctu_aquaculture_facility-full.webp" decoding="async" height="4032" loading="lazy" sizes="(max-width:700px) 45vw, 17vw" src="assets/images/ctu_aquaculture_facility-preview.webp" srcset="assets/images/ctu_aquaculture_facility-preview.webp 960w, assets/images/ctu_aquaculture_facility-full.webp 2200w" width="2268"/></div>
+<div class="quote-card"><p>“Good technology matters most when it meets real needs on farms.”</p></div>
+</div><div class="about-copy reveal">
+<span class="tag"><b>My direction</b> Market Development × Aquaculture × Sustainability</span>
+<h3>Connecting people, products and practical aquaculture knowledge.</h3>
+<p>With more than 30 years of industry experience in my family, I have had opportunities to learn from aquaculture professionals and build connections with farmers and dealers across the Mekong Delta. My studies at Can Tho University give me a technical foundation to support these conversations.</p>
+<p>I have joined farm visits with technical staff, supported industry events and worked with international student teams. I enjoy using digital tools, clear communication and good planning to bring people together and help ideas move forward.</p>
+<div class="focus-grid">
+<div class="focus-card"><div class="focus-icon">↗</div><h4>Industry connections</h4><p>Relationships with farmers, dealers and aquaculture professionals.</p></div>
+<div class="focus-card"><div class="focus-icon">◎</div><h4>Market communication</h4><p>Exhibitions, event planning and customer-facing activities.</p></div>
+<div class="focus-card"><div class="focus-icon">≈</div><h4>Technical foundation</h4><p>Water quality, aquatic biology and hands-on culture experience.</p></div>
+<div class="focus-card"><div class="focus-icon">✦</div><h4>Digital &amp; global skills</h4><p>Visual media, office tools, English and cross-cultural teamwork.</p></div>
+</div></div></div></div></section><section class="section" id="journey"><div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">02 • Industry &amp; hands-on experience</span><h2 class="section-title">Experience beyond<br/>the classroom.</h2></div><p class="section-lead">Industry events, work at a university culture facility and practical field activities have shaped the way I approach aquaculture and market communication.</p></div>
+<div class="timeline"><div class="tl-item reveal"><div class="tl-card"><div class="tl-date">2023 &amp; 2025</div><h3>VietShrimp International Fair · Event Support</h3><p>I supported event operations and communication with visitors, including participants from Vietnam and other countries. These events helped me learn about aquaculture products and the importance of business relationships.</p></div><div class="tl-center"><span class="tl-dot"></span></div><div class="tl-photo smart-fit photo-portrait photo-lift"><img alt="VietShrimp 2025 · Aquaculture industry event" class="" data-full="assets/images/vietshrimp_2025_a-full.webp" decoding="async" height="4032" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/vietshrimp_2025_a-preview.webp" srcset="assets/images/vietshrimp_2025_a-preview.webp 960w, assets/images/vietshrimp_2025_a-full.webp 2200w" width="2268"/><span class="cap">VietShrimp 2025 · Aquaculture industry event</span></div></div><div class="tl-item reveal"><div class="tl-photo smart-fit photo-landscape photo-lift"><img alt="Hands-on polychaete culture · Can Tho University" class="" data-full="assets/images/polychaete_tank_care-full.webp" decoding="async" height="1041" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/polychaete_tank_care-preview.webp" srcset="assets/images/polychaete_tank_care-preview.webp 960w, assets/images/polychaete_tank_care-full.webp 1389w" width="1389"/><span class="cap">Hands-on polychaete culture · Can Tho University</span></div><div class="tl-center"><span class="tl-dot"></span></div><div class="tl-card"><div class="tl-date">2023–2025</div><h3>Polychaete Culture · Can Tho University</h3><p>I sifted sediment to find mature worms, helped stock culture tanks, fed the worms and monitored water conditions. I also observed staff carrying out artificial breeding. The species cultured was <i>Dendronereis chipolini</i>.</p></div></div><div class="tl-item reveal"><div class="tl-card"><div class="tl-date">During my undergraduate studies</div><h3>Shrimp Farm Visits &amp; Field Practice</h3><p>I joined farm and field activities alongside technical staff and university instructors, including water sampling and shrimp stocking practice. These visits helped me see daily farm operations and the value of clear technical support.</p></div><div class="tl-center"><span class="tl-dot"></span></div><div class="tl-photo smart-fit photo-landscape photo-lift"><img alt="Shrimp stocking practice · 2025" class="" data-full="assets/images/shrimp_stocking_practice-full.webp" decoding="async" height="1920" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/shrimp_stocking_practice-preview.webp" srcset="assets/images/shrimp_stocking_practice-preview.webp 960w, assets/images/shrimp_stocking_practice-full.webp 2200w" width="2560"/><span class="cap">Shrimp stocking practice · 2025</span></div></div><div class="tl-item reveal"><div class="tl-photo smart-fit photo-portrait photo-lift"><img alt="College of Aquaculture and Fisheries · Can Tho University" class="" data-full="assets/images/ctu_aquaculture_portrait-full.webp" decoding="async" height="2655" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/ctu_aquaculture_portrait-preview.webp" srcset="assets/images/ctu_aquaculture_portrait-preview.webp 960w, assets/images/ctu_aquaculture_portrait-full.webp 1493w" width="1493"/><span class="cap">College of Aquaculture and Fisheries · Can Tho University</span></div><div class="tl-center"><span class="tl-dot"></span></div><div class="tl-card"><div class="tl-date">2022–2024</div><h3>CAFES English Speaking Club · Design Leader</h3><p>I supported visual content, digital communication and event planning at the College of Aquaculture and Fisheries English Speaking Club. This strengthened my teamwork, creative work and organisation skills.</p></div></div><div class="tl-item reveal"><div class="tl-card"><div class="tl-date">2025 · Singapore</div><h3>Asian Undergraduate Symposium · Team Project</h3><p>I worked with an international team on TRIbaLINGUAL. Our project ranked among the top 10 of 40 projects and received SGD 5,000 in funding for the team project. I supported coordination, logistics and visual communication.</p></div><div class="tl-center"><span class="tl-dot"></span></div><div class="tl-photo smart-fit photo-landscape photo-lift"><img alt="AUS 2025 international project team together at NUS in Singapore" class="" data-full="assets/images/aus_nus_group_original.jpg" decoding="async" height="1536" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/aus_nus_group_preview.webp" srcset="assets/images/aus_nus_group_preview.webp 960w, assets/images/aus_nus_group_original.jpg 2048w" width="2048"/><span class="cap">AUS 2025 · International project team at NUS</span></div></div></div></div></section><section class="section" id="global"><div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">03 • International experience</span><h2 class="section-title">Learning across<br/>Southeast Asia.</h2></div><p class="section-lead">Academic exchange programs and team projects have helped me use English, work with people from different backgrounds and learn from regional experiences.</p></div>
+<div class="journey-grid">
+<article class="journey-card reveal"><div class="journey-media smart-fit photo-lift"><img alt="National University of Singapore · AUS 2025" class="" data-full="assets/images/nus_international_team-full.webp" decoding="async" height="3024" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/nus_international_team-preview.webp" srcset="assets/images/nus_international_team-preview.webp 960w, assets/images/nus_international_team-full.webp 2200w" width="4032"/><span class="journey-country">🇸🇬 SINGAPORE · 2025</span></div>
+<div class="journey-body"><h3>National University of Singapore · AUS 2025</h3><p>I joined an international project team during the Asian Undergraduate Symposium and also attended Regen Asia Summit. I contributed to project coordination and communication, gaining experience in teamwork across cultures.</p><div class="journey-meta"><span class="tag">Team project</span><span class="tag">English communication</span><span class="tag">Community</span></div></div></article>
+<article class="journey-card reveal"><div class="journey-media smart-fit photo-lift"><img alt="KMITL · Student Exchange" class="" data-full="assets/images/kmitl_lab_group-full.webp" decoding="async" height="3023" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/kmitl_lab_group-preview.webp" srcset="assets/images/kmitl_lab_group-preview.webp 960w, assets/images/kmitl_lab_group-full.webp 2200w" width="3793"/><span class="journey-country">🇹🇭 THAILAND · 2022</span></div>
+<div class="journey-body"><h3>KMITL · Student Exchange</h3><p>I took part in practical learning activities and visited aquaculture facilities during an exchange at King Mongkut’s Institute of Technology Ladkrabang. The program included laboratory learning and teamwork with fellow students.</p><div class="journey-meta"><span class="tag">Aquaculture</span><span class="tag">Laboratory learning</span><span class="tag">Exchange</span></div></div></article>
+<article class="journey-card reveal"><div class="journey-media smart-fit photo-lift"><img alt="Universitas Airlangga · AIRVENTURE" class="" data-full="assets/images/unair_discussion-full.webp" decoding="async" height="3819" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/unair_discussion-preview.webp" srcset="assets/images/unair_discussion-preview.webp 960w, assets/images/unair_discussion-full.webp 2200w" width="5730"/><span class="journey-country">🇮🇩 INDONESIA · 2026</span></div>
+<div class="journey-body"><h3>Universitas Airlangga · AIRVENTURE</h3><p>I joined a summer program about marine ecosystems and environmental protection. Academic sessions, group activities and coastal learning helped me develop a broader view of sustainable aquaculture.</p><div class="journey-meta"><span class="tag">Marine ecosystems</span><span class="tag">International teamwork</span><span class="tag">Sustainability</span></div></div></article>
+</div>
+<div class="personal-footnote reveal"><div class="personal-footnote-image photo-lift"><img alt="An informal travel photo of Minh Khoi at the Petronas Towers in Kuala Lumpur" class="" data-full="assets/images/petronas_personal-full.webp" decoding="async" height="3858" loading="lazy" sizes="(max-width:700px) 34vw, 15vw" src="assets/images/petronas_personal-preview.webp" srcset="assets/images/petronas_personal-preview.webp 960w, assets/images/petronas_personal-full.webp 2170w" width="2170"/></div><div><span class="tag">A small personal note</span><p>Outside academic and industry activities, I enjoy taking photographs and discovering new places. <span class="muted-em">A moment from Kuala Lumpur.</span></p></div></div>
+</div></section><section class="section" id="project"><div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">04 • Featured team project</span><h2 class="section-title">TRIbaLINGUAL.<br/>Language connects people.</h2></div><p class="section-lead">A community education idea developed by an international team at the Asian Undergraduate Symposium 2025.</p></div>
+<div class="project-feature reveal"><div class="project-image smart-fit photo-lift"><img alt="Photos of the TRIbaLINGUAL project team and project activities" class="" data-full="assets/images/tribalingual_team_project-full.webp" decoding="async" height="2080" loading="lazy" sizes="(max-width:700px) 100vw, 42vw" src="assets/images/tribalingual_team_project-preview.webp" srcset="assets/images/tribalingual_team_project-preview.webp 960w, assets/images/tribalingual_team_project-full.webp 1170w" width="1170"/></div>
+<div class="project-copy"><span class="tag"><b>Team member</b> TRIbaLINGUAL</span><div class="big-number count" data-target="5000">5,000</div><h3>SGD in funding for our team project.</h3>
+<p>Our project was selected among the top 10 of 40 projects at AUS 2025. The funding supports our team’s education project.</p>
+<p>TRIbaLINGUAL supports English, Vietnamese and Hmong language learning while respecting cultural identity. I helped with coordination, logistics and visual communication.</p>
+<div class="project-list"><div><span>01</span><span><b>Purpose:</b> Support language learning and local cultural identity.</span></div>
+<div><span>02</span><span><b>Teamwork:</b> Plan and work with students from different countries.</span></div>
+<div><span>03</span><span><b>My contribution:</b> Coordination, logistics and visual communication.</span></div></div>
+<a class="btn btn-primary" href="https://tribalingual.vn/welcome" rel="noopener noreferrer" target="_blank">Explore TRIbaLINGUAL ↗</a>
+</div></div></div></section><section class="section" id="academics"><div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">05 • Technical &amp; academic background</span><h2 class="section-title">A foundation in<br/>aquatic science.</h2></div><p class="section-lead">My studies and hands-on activities have helped me understand water quality, aquatic organisms and sustainable aquaculture systems.</p></div>
+<div class="academic-grid">
+<div class="education-card reveal"><span class="tag">Education</span><h3>Can Tho University</h3>
+<div class="degree"><div class="degree-head"><h4>Master of Science in Aquaculture</h4><span>2026–Present</span></div><p>Current Master's student with interests in water quality, aquatic microbiology and sustainable aquatic animal health.</p></div>
+<div class="degree"><div class="degree-head"><h4>Bachelor's Degree in Aquaculture</h4><span>2021–2025</span></div><p>Built a foundation in aquatic biology, ecology, farming systems and water quality management. Undergraduate GPA: 3.25/4.00.</p></div>
+<div class="degree"><div class="degree-head"><h4>Academic scholarship</h4><span>2024–2025</span></div><p>Received an academic merit scholarship during the final year of undergraduate studies.</p></div>
+<div class="degree"><div class="degree-head"><h4>Phytoplankton observation</h4><span>Undergraduate study</span></div><p>Studied phytoplankton diversity and practised identifying different algae groups, including groups that may affect pond water quality.</p></div>
+</div>
+<div class="skills-card reveal"><span class="tag">Practical toolkit</span><h3>Skills I continue to build</h3>
+<div class="skill-cloud"><span class="skill-pill">Aquaculture systems</span><span class="skill-pill">Water quality</span><span class="skill-pill">Phytoplankton identification</span><span class="skill-pill">Polychaete culture</span><span class="skill-pill">Farm observation</span><span class="skill-pill">Industry events</span><span class="skill-pill">Market communication</span><span class="skill-pill">Visual design</span><span class="skill-pill">Project coordination</span><span class="skill-pill">Digital office tools</span><span class="skill-pill">International teamwork</span></div>
+<div class="metric-grid"><div class="metric"><strong class="count" data-decimals="2" data-target="3.25">0</strong><span>Undergraduate GPA / 4.00</span></div><div class="metric"><strong class="count" data-target="695">0</strong><span>TOEIC score</span></div><div class="metric"><strong>2023–25</strong><span>Polychaete culture experience</span></div><div class="metric"><strong>EN</strong><span>Working English proficiency</span></div></div>
+</div></div>
+<div class="technical-panel reveal"><div class="technical-panel-copy"><span class="eyebrow">Hands-on aquaculture</span><h3>Polychaete culture at Can Tho University</h3><p><i>Dendronereis chipolini</i> is a polychaete species used as a feed source for shrimp broodstock. From 2023 to 2025, I sifted sediment to find mature worms, stocked and cared for culture tanks, fed the worms and checked water conditions. I also observed staff carrying out artificial breeding.</p><p>This experience improved my understanding of culture systems and helped develop my interest in sustainable aquaculture.</p></div>
+<div class="technical-panel-photos"><div class="technical-photo large smart-fit photo-lift"><img alt="Minh Khoi handling polychaetes at the university culture tanks" class="" data-full="assets/images/polychaete_stocking-full.webp" decoding="async" height="1057" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/polychaete_stocking-preview.webp" srcset="assets/images/polychaete_stocking-preview.webp 960w, assets/images/polychaete_stocking-full.webp 1410w" width="1410"/></div><div class="technical-photo smart-fit photo-lift"><img alt="Feeding polychaetes at Can Tho University" class="" data-full="assets/images/polychaete_feeding-full.webp" decoding="async" height="1031" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/polychaete_feeding-preview.webp" srcset="assets/images/polychaete_feeding-preview.webp 960w, assets/images/polychaete_feeding-full.webp 1833w" width="1833"/></div><div class="technical-photo smart-fit photo-lift"><img alt="Stocking polychaetes into the culture tank" class="" data-full="assets/images/polychaete_tank_care-full.webp" decoding="async" height="1041" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/polychaete_tank_care-preview.webp" srcset="assets/images/polychaete_tank_care-preview.webp 960w, assets/images/polychaete_tank_care-full.webp 1389w" width="1389"/></div></div></div>
+<div class="lab-panel reveal"><div class="lab-panel-images"><div class="smart-fit photo-lift"><img alt="Phytoplankton observation during university laboratory work" class="" data-full="assets/images/phytoplankton_observation-full.webp" decoding="async" height="4032" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/phytoplankton_observation-preview.webp" srcset="assets/images/phytoplankton_observation-preview.webp 960w, assets/images/phytoplankton_observation-full.webp 2200w" width="2268"/></div><div class="smart-fit photo-lift"><img alt="Learning water analysis procedures from a laboratory instructor" class="" data-full="assets/images/water_lab_guidance-full.webp" decoding="async" height="1280" loading="lazy" sizes="(max-width: 700px) 100vw, 50vw" src="assets/images/water_lab_guidance-preview.webp" srcset="assets/images/water_lab_guidance-preview.webp 960w, assets/images/water_lab_guidance-full.webp 960w" width="960"/></div></div><div class="lab-panel-copy"><span class="eyebrow">Academic laboratory learning</span><h3>Water analysis &amp; phytoplankton</h3><p>During my studies, I attended practical laboratory sessions related to water quality and aquatic organisms. I am especially interested in identifying phytoplankton and understanding their role in aquatic environments.</p><p class="caution-note">These experiences encouraged me to keep building my knowledge of water quality and aquatic life.</p></div></div>
+</div></section><section class="section" id="gallery"><div class="container">
+<div class="section-head reveal"><div><span class="eyebrow">06 • Professional moments</span><h2 class="section-title">Real experiences.<br/>Real learning.</h2></div><p class="section-lead">A selected collection of industry events, field activities, university laboratory work and international teamwork.</p></div>
+<div class="gallery-toolbar reveal"><button class="filter-btn active" data-filter="all" type="button">All photos</button><button class="filter-btn" data-filter="industry" type="button">Industry</button><button class="filter-btn" data-filter="technical" type="button">Technical</button><button class="filter-btn" data-filter="international" type="button">International</button></div>
+<div class="gallery"><figure aria-label="Open photo: VietShrimp 2025 · Industry event" class="gallery-item g1 photo-lift" data-caption="VietShrimp 2025 · Industry event" data-cat="industry" role="button" tabindex="0"><img alt="VietShrimp 2025 · Industry event" class="" data-full="assets/images/vietshrimp_2025_a-full.webp" decoding="async" height="4032" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/vietshrimp_2025_a-preview.webp" srcset="assets/images/vietshrimp_2025_a-preview.webp 960w, assets/images/vietshrimp_2025_a-full.webp 2200w" width="2268"/></figure><figure aria-label="Open photo: VietShrimp 2023 · Opening ceremony" class="gallery-item g2 photo-lift" data-caption="VietShrimp 2023 · Opening ceremony" data-cat="industry" role="button" tabindex="0"><img alt="VietShrimp 2023 · Opening ceremony" class="" data-full="assets/images/vietshrimp_2023_opening-full.webp" decoding="async" height="3082" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/vietshrimp_2023_opening-preview.webp" srcset="assets/images/vietshrimp_2023_opening-preview.webp 960w, assets/images/vietshrimp_2023_opening-full.webp 2200w" width="2312"/></figure><figure aria-label="Open photo: Polychaete culture · Tank stocking" class="gallery-item g3 photo-lift" data-caption="Polychaete culture · Tank stocking" data-cat="technical" role="button" tabindex="0"><img alt="Polychaete culture · Tank stocking" class="" data-full="assets/images/polychaete_stocking-full.webp" decoding="async" height="1057" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/polychaete_stocking-preview.webp" srcset="assets/images/polychaete_stocking-preview.webp 960w, assets/images/polychaete_stocking-full.webp 1410w" width="1410"/></figure><figure aria-label="Open photo: Polychaete feeding and care" class="gallery-item g4 photo-lift" data-caption="Polychaete feeding and care" data-cat="technical" role="button" tabindex="0"><img alt="Polychaete feeding and care" class="" data-full="assets/images/polychaete_feeding-full.webp" decoding="async" height="1031" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/polychaete_feeding-preview.webp" srcset="assets/images/polychaete_feeding-preview.webp 960w, assets/images/polychaete_feeding-full.webp 1833w" width="1833"/></figure><figure aria-label="Open photo: Phytoplankton observation in the laboratory" class="gallery-item g5 photo-lift" data-caption="Phytoplankton observation in the laboratory" data-cat="technical" role="button" tabindex="0"><img alt="Phytoplankton observation in the laboratory" class="" data-full="assets/images/phytoplankton_observation-full.webp" decoding="async" height="4032" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/phytoplankton_observation-preview.webp" srcset="assets/images/phytoplankton_observation-preview.webp 960w, assets/images/phytoplankton_observation-full.webp 2200w" width="2268"/></figure><figure aria-label="Open photo: Water analysis · Guided laboratory learning" class="gallery-item g6 photo-lift" data-caption="Water analysis · Guided laboratory learning" data-cat="technical" role="button" tabindex="0"><img alt="Water analysis · Guided laboratory learning" class="" data-full="assets/images/water_lab_guidance-full.webp" decoding="async" height="1280" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/water_lab_guidance-preview.webp" srcset="assets/images/water_lab_guidance-preview.webp 960w, assets/images/water_lab_guidance-full.webp 960w" width="960"/></figure><figure aria-label="Open photo: Shrimp stocking · Undergraduate field practice" class="gallery-item g7 photo-lift" data-caption="Shrimp stocking · Undergraduate field practice" data-cat="technical" role="button" tabindex="0"><img alt="Shrimp stocking · Undergraduate field practice" class="" data-full="assets/images/shrimp_stocking_practice-full.webp" decoding="async" height="1920" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/shrimp_stocking_practice-preview.webp" srcset="assets/images/shrimp_stocking_practice-preview.webp 960w, assets/images/shrimp_stocking_practice-full.webp 2200w" width="2560"/></figure><figure aria-label="Open photo: Water sampling · Field practice" class="gallery-item g8 photo-lift" data-caption="Water sampling · Field practice" data-cat="technical" role="button" tabindex="0"><img alt="Water sampling · Field practice" class="" data-full="assets/images/field_water_sampling-full.webp" decoding="async" height="1500" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/field_water_sampling-preview.webp" srcset="assets/images/field_water_sampling-preview.webp 960w, assets/images/field_water_sampling-full.webp 1125w" width="1125"/></figure><figure aria-label="Open photo: KMITL Thailand · Laboratory exchange" class="gallery-item g9 photo-lift" data-caption="KMITL Thailand · Laboratory exchange" data-cat="international technical" role="button" tabindex="0"><img alt="KMITL Thailand · Laboratory exchange" class="" data-full="assets/images/kmitl_lab_group-full.webp" decoding="async" height="3023" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/kmitl_lab_group-preview.webp" srcset="assets/images/kmitl_lab_group-preview.webp 960w, assets/images/kmitl_lab_group-full.webp 2200w" width="3793"/></figure><figure aria-label="Open photo: AUS 2025 international team at NUS" class="gallery-item g1 photo-lift" data-caption="AUS 2025 · International project team at NUS" data-cat="international" role="button" tabindex="0"><img alt="AUS 2025 international project team at NUS" class="" data-full="assets/images/aus_nus_group_original.jpg" decoding="async" height="1536" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/aus_nus_group_preview.webp" srcset="assets/images/aus_nus_group_preview.webp 960w, assets/images/aus_nus_group_original.jpg 2048w" width="2048"/></figure><figure aria-label="Open photo: UNAIR Indonesia · Academic discussion" class="gallery-item g2 photo-lift" data-caption="UNAIR Indonesia · Academic discussion" data-cat="international" role="button" tabindex="0"><img alt="UNAIR Indonesia · Academic discussion" class="" data-full="assets/images/unair_discussion-full.webp" decoding="async" height="3819" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/unair_discussion-preview.webp" srcset="assets/images/unair_discussion-preview.webp 960w, assets/images/unair_discussion-full.webp 2200w" width="5730"/></figure><figure aria-label="Open photo: Indonesia · Marine ecosystem learning" class="gallery-item g3 photo-lift" data-caption="Indonesia · Marine ecosystem learning" data-cat="international" role="button" tabindex="0"><img alt="Indonesia · Marine ecosystem learning" class="" data-full="assets/images/marine_conservation_banyuwangi-full.webp" decoding="async" height="2582" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/marine_conservation_banyuwangi-preview.webp" srcset="assets/images/marine_conservation_banyuwangi-preview.webp 960w, assets/images/marine_conservation_banyuwangi-full.webp 2200w" width="3872"/></figure><figure aria-label="Open photo: TRIbaLINGUAL · International project team" class="gallery-item g4 photo-lift" data-caption="TRIbaLINGUAL · International project team" data-cat="international industry" role="button" tabindex="0"><img alt="TRIbaLINGUAL · International project team" class="" data-full="assets/images/tribalingual_team_project-full.webp" decoding="async" height="2080" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/tribalingual_team_project-preview.webp" srcset="assets/images/tribalingual_team_project-preview.webp 960w, assets/images/tribalingual_team_project-full.webp 1170w" width="1170"/></figure><figure aria-label="Open photo: Can Tho University · Graduation" class="gallery-item g5 photo-lift" data-caption="Can Tho University · Graduation" data-cat="academic" role="button" tabindex="0"><img alt="Can Tho University · Graduation" class="" data-full="assets/images/graduation_cover-full.webp" decoding="async" height="3990" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/graduation_cover-preview.webp" srcset="assets/images/graduation_cover-preview.webp 960w, assets/images/graduation_cover-full.webp 2800w" width="4988"/></figure><figure aria-label="Open photo: AIRVENTURE 2026 · Certificate presentation" class="gallery-item g6 photo-lift" data-caption="AIRVENTURE 2026 · Certificate presentation" data-cat="international" role="button" tabindex="0"><img alt="AIRVENTURE 2026 certificate presentation in Indonesia" data-full="assets/images/airventure_certificate-full.webp" decoding="async" height="2048" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/airventure_certificate-preview.webp" srcset="assets/images/airventure_certificate-preview.webp 960w, assets/images/airventure_certificate-full.webp 2048w" width="2048"/></figure><figure aria-label="Open photo: NUS Singapore · Campus moment" class="gallery-item g7 photo-lift" data-caption="NUS Singapore · Campus moment" data-cat="international" role="button" tabindex="0"><img alt="Minh Khoi at the NUS The Best Campus Life sign in Singapore" data-full="assets/images/nus_campus_sign-full.webp" decoding="async" height="1535" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/nus_campus_sign-preview.webp" srcset="assets/images/nus_campus_sign-preview.webp 960w, assets/images/nus_campus_sign-full.webp 2048w" width="2048"/></figure><figure aria-label="Open photo: Universitas Airlangga · Campus landmark" class="gallery-item g8 photo-lift" data-caption="Universitas Airlangga · Campus landmark" data-cat="international" role="button" tabindex="0"><img alt="Minh Khoi at the Universitas Airlangga campus landmark in Surabaya" data-full="assets/images/unair_gate-full.webp" decoding="async" height="1317" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/unair_gate-preview.webp" srcset="assets/images/unair_gate-preview.webp 960w, assets/images/unair_gate-full.webp 2048w" width="2048"/></figure><figure aria-label="Open photo: Vietnamese team at AIRVENTURE · UNAIR 2026" class="gallery-item g9 photo-lift" data-caption="Vietnamese team at AIRVENTURE · UNAIR 2026" data-cat="international" role="button" tabindex="0"><img alt="Vietnamese team at AIRVENTURE 2026 holding the national flag at Universitas Airlangga" data-full="assets/images/airventure_vn_team-full.webp" decoding="async" height="1364" loading="lazy" sizes="(max-width:700px) 90vw, 30vw" src="assets/images/airventure_vn_team-preview.webp" srcset="assets/images/airventure_vn_team-preview.webp 960w, assets/images/airventure_vn_team-full.webp 2048w" width="2048"/></figure></div></div></section><section class="section" id="contact"><div class="container"><div class="contact-wrap reveal"><div class="contact-grid">
+<div class="contact-copy"><span class="eyebrow">07 • Contact</span><h2>Let's connect.<br/>New ideas start with a conversation.</h2>
+<p>I am interested in opportunities involving aquaculture market development, technical communication, business relationships and science-based solutions for sustainable farming.</p>
+<div class="contact-list"><a class="contact-row" href="mailto:khoidang144@gmail.com"><span class="ci">✉</span><span>khoidang144@gmail.com</span></a>
+<a class="contact-row" href="tel:+84373644638"><span class="ci">☎</span><span>+84 373 644 638</span></a>
+<div class="contact-row"><span class="ci">⌖</span><span>Can Tho, Vietnam</span></div>
+
+<a aria-label="Message Minh Khoi on WhatsApp" class="contact-row" href="https://wa.me/84373644638" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24"><path d="M20.5 11.3a8.5 8.5 0 0 1-12.6 7.4L3 20l1.3-4.7A8.5 8.5 0 1 1 20.5 11.3Z"></path><path d="M8 8.6c.7 3.2 3.2 5.8 6.6 6.5.8.2 1.5-.1 2-1l-2.4-1.2-1.1 1a8.5 8.5 0 0 1-3.2-3.1l1-1.2-1.5-2.2c-.6-.3-1.1.3-1.4 1.2Z"></path></svg></span><span>WhatsApp · +84 373 644 638</span></a>
+<a aria-label="Message Minh Khoi on Telegram" class="contact-row" href="https://t.me/id_LouisDang" rel="noopener noreferrer" target="_blank"><span aria-hidden="true" class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24"><path d="m21 3-18 7.6 6.1 2.3L21 3Z"></path><path d="m9.1 12.9 2.1 7.3 3.2-4.8L21 3 9.1 12.9Z"></path><path d="m14.4 15.4 4.3 3.4L21 3"></path></svg></span><span>Telegram · @id_LouisDang</span></a>
+</div>
+<div class="sources"><a class="source-link" href="https://aus-summer.nus.edu.sg/" rel="noopener noreferrer" target="_blank">Asian Undergraduate Symposium ↗</a><a class="source-link" href="https://global.unair.ac.id/airventure/" rel="noopener noreferrer" target="_blank">Universitas Airlangga · AIRVENTURE ↗</a></div>
+</div>
+<form class="contact-form" id="contactForm"><div class="field"><label for="name">Your name</label><input id="name" name="name" placeholder="Full name" required=""/></div>
+<div class="field"><label for="email">Email</label><input id="email" name="email" placeholder="you@example.com" required="" type="email"/></div>
+<div class="field full"><label for="subject">Subject</label><input id="subject" name="subject" placeholder="An opportunity, a question, or a quick hello" required=""/></div>
+<div class="field full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Write your message here..." required=""></textarea></div>
+<div class="field full"><button class="btn btn-primary" type="submit">Write an Email ↗</button></div></form>
+</div></div></div></section></main>
+<footer>
+<div class="container footer-row"><span>© 2026 Dang Nguyen Minh Khoi. Built for meaningful opportunities in aquaculture.</span><span>Aquaculture · Market Development · Technical Communication</span></div>
+</footer>
+<div aria-label="Xem ảnh lớn" aria-modal="true" class="lightbox" id="lightbox" role="dialog">
+<button aria-label="Đóng" class="lb-close" id="lbClose">×</button>
+<img alt="" id="lbImg"/>
+<div class="lb-caption" id="lbCaption"></div>
+</div>
+<script>
+    // Theme
+    const root = document.documentElement;
+    const themeBtn = document.getElementById('themeBtn');
+    let savedTheme; try { savedTheme=localStorage.getItem('khoi-theme'); } catch(err) { savedTheme=null; }
+    if(savedTheme) root.dataset.theme = savedTheme;
+    function syncThemeIcon(){ themeBtn.textContent = root.dataset.theme === 'light' ? '☀' : '☾'; }
+    syncThemeIcon();
+    themeBtn.addEventListener('click',()=>{
+      root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+      try {localStorage.setItem('khoi-theme',root.dataset.theme);} catch(err) {}
+      syncThemeIcon();
+    });
+
+    // Mobile menu
+    const menuBtn=document.getElementById('menuBtn'), mobileMenu=document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click',()=>mobileMenu.classList.toggle('open'));
+    mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.remove('open')));
+
+    // Scroll progress + active nav
+    const progress=document.getElementById('progress');
+    const navLinks=[...document.querySelectorAll('.nav-links a')];
+    const sections=[...document.querySelectorAll('main section[id]')];
+    function onScroll(){
+      const max=document.documentElement.scrollHeight-innerHeight;
+      progress.style.width=(max?scrollY/max*100:0)+'%';
+      let current='home';
+      sections.forEach(sec=>{if(scrollY>=sec.offsetTop-160) current=sec.id});
+      navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+current));
+    }
+    addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+    // Reveal
+    const io=new IntersectionObserver(entries=>{
+      entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}})
+    },{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+    // Typewriter
+    const phrasesByLang={
+      en:['aquaculture market development','technical communication','sustainable aquatic animal health','connecting local industry networks'],
+      vi:['phát triển thị trường thủy sản','truyền thông kỹ thuật','sức khỏe vật nuôi thủy sản bền vững','kết nối mạng lưới ngành tại địa phương']
+    };
+    const typed=document.getElementById('typed');
+    let pi=0,ci=0,del=false,typeTimer=null;
+    function currentPhrases(){return phrasesByLang[window.khoiLang||'en']||phrasesByLang.en}
+    function resetTypewriter(){
+      if(typeTimer) clearTimeout(typeTimer);
+      pi=0;ci=currentPhrases()[0].length;del=false;
+      typed.textContent=currentPhrases()[0];
+      typeLoop();
+    }
+    function typeLoop(){
+      const phrases=currentPhrases();
+      const p=phrases[pi];
+      if(!del && ci<p.length){ci++;typed.textContent=p.slice(0,ci);typeTimer=setTimeout(typeLoop,45);return}
+      if(!del && ci===p.length){del=true;typeTimer=setTimeout(typeLoop,1500);return}
+      if(del && ci>0){ci--;typed.textContent=p.slice(0,ci);typeTimer=setTimeout(typeLoop,24);return}
+      del=false;pi=(pi+1)%phrases.length;typeTimer=setTimeout(typeLoop,260);
+    }
+    setTimeout(resetTypewriter,1000);
+
+    // Animated metrics: one animation per statistic as it comes into view.
+    const counters=document.querySelectorAll('.count');
+    const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+    const readableValue=(el,value)=>{
+      const dec=Number(el.dataset.decimals||0),pad=Number(el.dataset.pad||0);
+      return dec?value.toFixed(dec):(pad?String(Math.round(value)).padStart(pad,'0'):Math.round(value).toLocaleString('en-US'));
+    };
+    if(!('IntersectionObserver' in window) || reducedMotion.matches){
+      counters.forEach(el=>el.textContent=readableValue(el,Number(el.dataset.target))+(el.dataset.suffix||''));
+    } else {
+      const counterIO=new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+          if(!entry.isIntersecting)return;
+          const el=entry.target,target=Number(el.dataset.target||0),suffix=el.dataset.suffix||'';
+          const start=performance.now(),duration=1400;
+          const tick=now=>{
+            const p=Math.min(1,(now-start)/duration),eased=1-Math.pow(1-p,4);
+            el.textContent=readableValue(el,target*eased)+suffix;
+            if(p<1)requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+          counterIO.unobserve(el);
+        });
+      },{threshold:.35});
+      counters.forEach(el=>counterIO.observe(el));
+    }
+
+    // Gallery filter
+    const filterBtns=document.querySelectorAll('.filter-btn'),items=document.querySelectorAll('.gallery-item');
+    filterBtns.forEach(btn=>btn.addEventListener('click',()=>{
+      filterBtns.forEach(b=>b.classList.remove('active'));btn.classList.add('active');
+      const f=btn.dataset.filter;
+      items.forEach(item=>{
+        const show=f==='all'||(item.dataset.cat||'').split(/\s+/).includes(f);
+        item.style.display=show?'block':'none';
+      });
+    }));
+
+    // Lightbox
+    const lightbox=document.getElementById('lightbox'),lbImg=document.getElementById('lbImg'),lbCaption=document.getElementById('lbCaption');
+    items.forEach(item=>item.addEventListener('click',()=>{
+      lbImg.src=item.querySelector('img').dataset.full || item.querySelector('img').src;lbImg.alt=item.querySelector('img').alt;
+      lbCaption.textContent=item.dataset.caption||'';lightbox.classList.add('open');document.body.style.overflow='hidden';
+    }));
+    function closeLB(){lightbox.classList.remove('open');document.body.style.overflow=''}
+    document.getElementById('lbClose').addEventListener('click',closeLB);
+    lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLB()});
+    addEventListener('keydown',e=>{if(e.key==='Escape')closeLB()});
+
+    // Mailto contact form (works on static GitHub Pages with no backend)
+    document.getElementById('contactForm').addEventListener('submit',e=>{
+      e.preventDefault();
+      const fd=new FormData(e.currentTarget);
+      const greeting=(window.khoiLang==='vi'?'Chào Minh Khôi,':'Hello Minh Khoi,');
+      const body=`${encodeURIComponent(greeting)}%0D%0A%0D%0A${encodeURIComponent(fd.get('message'))}%0D%0A%0D%0A- ${encodeURIComponent(fd.get('name'))}%0D%0A${encodeURIComponent(fd.get('email'))}`;
+      location.href=`mailto:khoidang144@gmail.com?subject=${encodeURIComponent(fd.get('subject'))}&body=${body}`;
+    });
+  
+
+    // Preserve the entire photo while using a soft blurred fill behind it.
+    const applySmartFit=()=>{
+      document.querySelectorAll('.smart-fit > img').forEach(img=>{
+        const wrap=img.parentElement;
+        const sync=()=>wrap.style.setProperty('--fit-bg',`url("${img.src}")`);
+        if(img.complete) sync(); else img.addEventListener('load',sync,{once:true});
+      });
+    };
+    applySmartFit();
+
+
+    // Northern road-trip filmstrip also opens in the existing lightbox.
+    document.querySelectorAll('.north-shot').forEach(item=>{
+      const openNorthShot=()=>{
+        const img=item.querySelector('img');
+        lbImg.src=img.src;lbImg.alt=img.alt;
+        lbCaption.textContent=item.dataset.caption||img.alt||'';
+        lightbox.classList.add('open');document.body.style.overflow='hidden';
+      };
+      item.addEventListener('click',openNorthShot);
+      item.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openNorthShot();}});
+    });
+
+    document.querySelectorAll('.gallery-item').forEach(item=>item.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();item.click();}}));
+</script>
+<!-- Google Translate Widget -->
+<script>
+// Motion that follows natural scrolling gently; no photo zoom, masking, or cropping.
+(() => {
+  const items=[...document.querySelectorAll('.photo-lift')];
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+  if(!('IntersectionObserver' in window) || reduce.matches)return;
+  items.forEach(el=>el.classList.add('motion-ready'));
+  const observer=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){entry.target.classList.add('is-in-view');observer.unobserve(entry.target)}
+    });
+  },{threshold:.08,rootMargin:'0px 0px -20px 0px'});
+  items.forEach(el=>observer.observe(el));
+  let pending=false;
+  const move=()=>{
+    pending=false;
+    const h=window.innerHeight||800;
+    for(const el of items){
+      const r=el.getBoundingClientRect();
+      if(r.bottom<0||r.top>h)continue;
+      const relative=(r.top+r.height/2-h/2)/h;
+      const offset=Math.max(-7,Math.min(7,-relative*14));
+      el.style.setProperty('--scroll-lift',offset.toFixed(2)+'px');
+    }
+  };
+  const requestMove=()=>{if(!pending){pending=true;requestAnimationFrame(move)}};
+  window.addEventListener('scroll',requestMove,{passive:true});
+  window.addEventListener('resize',requestMove,{passive:true});
+  requestMove();
+  // Direct photo clicks open source-resolution media, keeping the image uncropped.
+  const box=document.getElementById('lightbox'),large=document.getElementById('lbImg'),caption=document.getElementById('lbCaption');
+  document.querySelectorAll('.tl-photo,.journey-media,.project-image,.technical-photo,.lab-panel-images>div,.portrait-main,.portrait-mini').forEach(el=>{
+    if(!el.querySelector('img'))return;
+    el.setAttribute('role','button');el.setAttribute('tabindex','0');
+    el.setAttribute('aria-label','Open original photo: '+el.querySelector('img').alt);
+    const show=()=>{const img=el.querySelector('img');large.src=img.dataset.full||img.currentSrc||img.src;large.alt=img.alt;caption.textContent=el.querySelector('.cap')?.textContent||img.alt;box.classList.add('open');document.body.style.overflow='hidden'};
+    el.addEventListener('click',show);
+    el.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();show()}});
+  });
+})();
+</script>
+<script>
+(() => {
+  const textMap = {
+    'Aquaculture portfolio': {vi:'Portfolio thủy sản'},
+    'About': {vi:'Giới thiệu'},
+    'Experience': {vi:'Kinh nghiệm'},
+    'International': {vi:'Quốc tế'},
+    'Project': {vi:'Dự án'},
+    'Academics': {vi:'Học thuật'},
+    'Photos': {vi:'Hình ảnh'},
+    'Contact': {vi:'Liên hệ'},
+    'Aquaculture Engineer · Can Tho, Vietnam': {vi:'Kỹ sư Nuôi trồng Thủy sản · Cần Thơ, Việt Nam'},
+    'Explore My Experience ↘': {vi:'Khám phá hành trình của tôi ↘'},
+    'Get in Touch': {vi:'Liên hệ'},
+    'VietShrimp fairs': {vi:'Hội chợ VietShrimp'},
+    'Polychaete culture practice': {vi:'Thực hành nuôi giun nhiều tơ'},
+    'TOEIC · Working English': {vi:'TOEIC · Tiếng Anh làm việc'},
+    'AUS team project': {vi:'Dự án nhóm tại AUS'},
+    'Regen Asia Summit': {vi:'Regen Asia Summit'},
+    'From aquaculture to market opportunities ✦': {vi:'Từ thủy sản đến cơ hội thị trường ✦'},
+    '01 • About me': {vi:'01 • Về tôi'},
+    'Growing up around the aquaculture industry has shaped both my interests and the way I connect with people in the Mekong Delta.': {vi:'Lớn lên trong môi trường ngành thủy sản đã định hình cả mối quan tâm lẫn cách tôi kết nối với mọi người ở Đồng bằng sông Cửu Long.'},
+    '“Good technology matters most when it meets real needs on farms.”': {vi:'“Công nghệ chỉ thật sự có ý nghĩa khi đáp ứng đúng nhu cầu thực tế tại trại nuôi.”'},
+    'My direction Market Development × Aquaculture × Sustainability': {vi:'Định hướng của tôi Thị trường × Thủy sản × Bền vững'},
+    'Connecting people, products and practical aquaculture knowledge.': {vi:'Kết nối con người, sản phẩm và kiến thức thủy sản thực tiễn.'},
+    'Industry connections': {vi:'Kết nối trong ngành'},
+    'Relationships with farmers, dealers and aquaculture professionals.': {vi:'Mối quan hệ với nông hộ, đại lý và người làm trong ngành thủy sản.'},
+    'Market communication': {vi:'Truyền thông thị trường'},
+    'Exhibitions, event planning and customer-facing activities.': {vi:'Hội chợ, tổ chức sự kiện và các hoạt động làm việc với khách hàng.'},
+    'Technical foundation': {vi:'Nền tảng kỹ thuật'},
+    'Water quality, aquatic biology and hands-on culture experience.': {vi:'Chất lượng nước, sinh học thủy sinh và kinh nghiệm thực hành nuôi.'},
+    'Digital & global skills': {vi:'Kỹ năng số & hội nhập'},
+    'Visual media, office tools, English and cross-cultural teamwork.': {vi:'Thiết kế, công cụ văn phòng, tiếng Anh và làm việc đa văn hóa.'},
+    '02 • Industry & hands-on experience': {vi:'02 • Kinh nghiệm ngành & thực hành'},
+    'Industry events, work at a university culture facility and practical field activities have shaped the way I approach aquaculture and market communication.': {vi:'Các hội chợ ngành, công việc tại trại nuôi của trường và những hoạt động thực hành ngoài thực địa đã định hình cách tôi tiếp cận thủy sản và truyền thông thị trường.'},
+    '2023 & 2025': {vi:'2023 & 2025'},
+    'VietShrimp International Fair · Event Support': {vi:'Hội chợ Quốc tế VietShrimp · Hỗ trợ sự kiện'},
+    'I supported event operations and communication with visitors, including participants from Vietnam and other countries. These events helped me learn about aquaculture products and the importance of business relationships.': {vi:'Tôi hỗ trợ vận hành sự kiện và giao tiếp với khách tham quan, bao gồm cả người tham dự đến từ Việt Nam và các nước khác. Những trải nghiệm này giúp tôi hiểu thêm về sản phẩm thủy sản và tầm quan trọng của mối quan hệ kinh doanh.'},
+    'VietShrimp 2025 · Aquaculture industry event': {vi:'VietShrimp 2025 · Sự kiện ngành thủy sản'},
+    'Hands-on polychaete culture · Can Tho University': {vi:'Thực hành nuôi giun nhiều tơ · Đại học Cần Thơ'},
+    'Polychaete Culture · Can Tho University': {vi:'Nuôi giun nhiều tơ · Đại học Cần Thơ'},
+    'I sifted sediment to find mature worms, helped stock culture tanks, fed the worms and monitored water conditions. I also observed staff carrying out artificial breeding. The species cultured was Dendronereis chipolini.': {vi:'Tôi sàng nền đáy để tìm giun thành thục, hỗ trợ thả nuôi, cho ăn và theo dõi điều kiện nước. Tôi cũng quan sát cán bộ thực hiện sinh sản nhân tạo. Loài được nuôi là Dendronereis chipolini.'},
+    'During my undergraduate studies': {vi:'Trong thời gian học đại học'},
+    'Shrimp Farm Visits & Field Practice': {vi:'Thăm trại tôm & thực hành thực địa'},
+    'I joined farm and field activities alongside technical staff and university instructors, including water sampling and shrimp stocking practice. These visits helped me see daily farm operations and the value of clear technical support.': {vi:'Tôi tham gia các hoạt động thực địa và thăm trại cùng nhân viên kỹ thuật và giảng viên, bao gồm lấy mẫu nước và thực hành thả giống tôm. Những chuyến đi này giúp tôi hiểu hoạt động hằng ngày ở trại nuôi và giá trị của việc hỗ trợ kỹ thuật rõ ràng.'},
+    'Shrimp stocking practice · 2025': {vi:'Thực hành thả giống tôm · 2025'},
+    'College of Aquaculture and Fisheries · Can Tho University': {vi:'Khoa Thủy sản · Đại học Cần Thơ'},
+    'CAFES English Speaking Club · Design Leader': {vi:'CLB Tiếng Anh CAFES · Trưởng ban Thiết kế'},
+    'I supported visual content, digital communication and event planning at the College of Aquaculture and Fisheries English Speaking Club. This strengthened my teamwork, creative work and organisation skills.': {vi:'Tôi hỗ trợ nội dung hình ảnh, truyền thông số và tổ chức sự kiện tại Câu lạc bộ Tiếng Anh của Khoa Thủy sản. Vai trò này giúp tôi phát triển kỹ năng làm việc nhóm, sáng tạo và tổ chức.'},
+    'Asian Undergraduate Symposium · Team Project': {vi:'Asian Undergraduate Symposium · Dự án nhóm'},
+    'I worked with an international team on TRIbaLINGUAL. Our project ranked among the top 10 of 40 projects and received SGD 5,000 in funding for the team project. I supported coordination, logistics and visual communication.': {vi:'Tôi làm việc cùng một nhóm quốc tế trong dự án TRIbaLINGUAL. Dự án của chúng tôi vào top 10 trong tổng số 40 dự án và nhận được 5.000 SGD tài trợ cho dự án nhóm. Tôi phụ trách điều phối, hậu cần và truyền thông hình ảnh.'},
+    'AUS 2025 · International project team at NUS': {vi:'AUS 2025 · Nhóm dự án quốc tế tại NUS'},
+    '03 • International experience': {vi:'03 • Trải nghiệm quốc tế'},
+    'Academic exchange programs and team projects have helped me use English, work with people from different backgrounds and learn from regional experiences.': {vi:'Các chương trình trao đổi học thuật và dự án nhóm đã giúp tôi sử dụng tiếng Anh, làm việc với nhiều nền tảng khác nhau và học hỏi từ những trải nghiệm trong khu vực.'},
+    'I joined an international project team during the Asian Undergraduate Symposium and also attended Regen Asia Summit. I contributed to project coordination and communication, gaining experience in teamwork across cultures.': {vi:'Tôi tham gia một nhóm dự án quốc tế trong Asian Undergraduate Symposium và cũng tham dự Regen Asia Summit. Tôi đóng góp ở phần điều phối và truyền thông, từ đó tích lũy thêm kinh nghiệm làm việc nhóm trong môi trường đa văn hóa.'},
+    'Team project': {vi:'Dự án nhóm'},
+    'English communication': {vi:'Giao tiếp tiếng Anh'},
+    'Community': {vi:'Cộng đồng'},
+    'I took part in practical learning activities and visited aquaculture facilities during an exchange at King Mongkut’s Institute of Technology Ladkrabang. The program included laboratory learning and teamwork with fellow students.': {vi:'Tôi tham gia các hoạt động học tập thực hành và thăm cơ sở thủy sản trong thời gian trao đổi tại King Mongkut’s Institute of Technology Ladkrabang. Chương trình bao gồm học tập trong phòng thí nghiệm và làm việc nhóm cùng các sinh viên khác.'},
+    'Aquaculture': {vi:'Thủy sản'},
+    'Laboratory learning': {vi:'Học tập phòng thí nghiệm'},
+    'Exchange': {vi:'Trao đổi'},
+    'I joined a summer program about marine ecosystems and environmental protection. Academic sessions, group activities and coastal learning helped me develop a broader view of sustainable aquaculture.': {vi:'Tôi tham gia một chương trình mùa hè về hệ sinh thái biển và bảo vệ môi trường. Các buổi học thuật, hoạt động nhóm và trải nghiệm tại khu vực ven biển giúp tôi có góc nhìn rộng hơn về nuôi trồng thủy sản bền vững.'},
+    'Marine ecosystems': {vi:'Hệ sinh thái biển'},
+    'International teamwork': {vi:'Làm việc nhóm quốc tế'},
+    'Sustainability': {vi:'Bền vững'},
+    'A small personal note': {vi:'Một ghi chú cá nhân nhỏ'},
+    'Outside academic and industry activities, I enjoy taking photographs and discovering new places.': {vi:'Ngoài các hoạt động học thuật và công việc trong ngành, tôi thích chụp ảnh và khám phá những nơi mới.'},
+    'A moment from Kuala Lumpur.': {vi:'Một khoảnh khắc tại Kuala Lumpur.'},
+    '04 • Featured team project': {vi:'04 • Dự án nhóm tiêu biểu'},
+    'A community education idea developed by an international team at the Asian Undergraduate Symposium 2025.': {vi:'Một ý tưởng giáo dục cộng đồng được phát triển bởi một nhóm quốc tế tại Asian Undergraduate Symposium 2025.'},
+    'SGD in funding for our team project.': {vi:'SGD tài trợ cho dự án nhóm của chúng tôi.'},
+    'Our project was selected among the top 10 of 40 projects at AUS 2025. The funding supports our team’s education project.': {vi:'Dự án của chúng tôi được chọn vào top 10 trong tổng số 40 dự án tại AUS 2025. Khoản tài trợ này hỗ trợ cho dự án giáo dục của nhóm.'},
+    'TRIbaLINGUAL supports English, Vietnamese and Hmong language learning while respecting cultural identity. I helped with coordination, logistics and visual communication.': {vi:'TRIbaLINGUAL hỗ trợ học tiếng Anh, tiếng Việt và tiếng H’Mông, đồng thời tôn trọng bản sắc văn hóa. Tôi hỗ trợ điều phối, hậu cần và truyền thông hình ảnh.'},
+    'Purpose:': {vi:'Mục tiêu:'},
+    'Support language learning and local cultural identity.': {vi:'Hỗ trợ học ngôn ngữ và bản sắc văn hóa địa phương.'},
+    'Teamwork:': {vi:'Làm việc nhóm:'},
+    'Plan and work with students from different countries.': {vi:'Lập kế hoạch và làm việc với sinh viên đến từ nhiều quốc gia.'},
+    'My contribution:': {vi:'Đóng góp của tôi:'},
+    'Coordination, logistics and visual communication.': {vi:'Điều phối, hậu cần và truyền thông hình ảnh.'},
+    'Explore TRIbaLINGUAL ↗': {vi:'Khám phá TRIbaLINGUAL ↗'},
+    '05 • Technical & academic background': {vi:'05 • Nền tảng kỹ thuật & học thuật'},
+    'My studies and hands-on activities have helped me understand water quality, aquatic organisms and sustainable aquaculture systems.': {vi:'Quá trình học tập và các hoạt động thực hành đã giúp tôi hiểu hơn về chất lượng nước, sinh vật thủy sinh và hệ thống nuôi trồng thủy sản bền vững.'},
+    'Education': {vi:'Học vấn'},
+    'Master of Science in Aquaculture': {vi:'Thạc sĩ Nuôi trồng Thủy sản'},
+    'Current Master\'s student with interests in water quality, aquatic microbiology and sustainable aquatic animal health.': {vi:'Hiện là học viên cao học với mối quan tâm về chất lượng nước, vi sinh thủy sản và sức khỏe vật nuôi thủy sản theo hướng bền vững.'},
+    'Bachelor\'s Degree in Aquaculture': {vi:'Cử nhân Nuôi trồng Thủy sản'},
+    'Built a foundation in aquatic biology, ecology, farming systems and water quality management. Undergraduate GPA: 3.25/4.00.': {vi:'Xây dựng nền tảng về sinh học thủy sinh, sinh thái, hệ thống nuôi và quản lý chất lượng nước. GPA đại học: 3.25/4.00.'},
+    'Academic scholarship': {vi:'Học bổng học tập'},
+    'Received an academic merit scholarship during the final year of undergraduate studies.': {vi:'Nhận học bổng khuyến khích học tập trong năm cuối đại học.'},
+    'Phytoplankton observation': {vi:'Quan sát thực vật phù du'},
+    'Undergraduate study': {vi:'Giai đoạn đại học'},
+    'Studied phytoplankton diversity and practised identifying different algae groups, including groups that may affect pond water quality.': {vi:'Tìm hiểu sự đa dạng của thực vật phù du và thực hành nhận diện các nhóm tảo khác nhau, bao gồm những nhóm có thể ảnh hưởng đến chất lượng nước ao nuôi.'},
+    'Practical toolkit': {vi:'Bộ kỹ năng thực hành'},
+    'Skills I continue to build': {vi:'Những kỹ năng tôi tiếp tục phát triển'},
+    'Aquaculture systems': {vi:'Hệ thống nuôi trồng thủy sản'},
+    'Water quality': {vi:'Chất lượng nước'},
+    'Phytoplankton identification': {vi:'Nhận diện thực vật phù du'},
+    'Polychaete culture': {vi:'Nuôi giun nhiều tơ'},
+    'Farm observation': {vi:'Quan sát trại nuôi'},
+    'Industry events': {vi:'Sự kiện trong ngành'},
+    'Market communication': {vi:'Truyền thông thị trường'},
+    'Visual design': {vi:'Thiết kế hình ảnh'},
+    'Project coordination': {vi:'Điều phối dự án'},
+    'Digital office tools': {vi:'Công cụ văn phòng số'},
+    'Undergraduate GPA / 4.00': {vi:'GPA đại học / 4.00'},
+    'TOEIC score': {vi:'Điểm TOEIC'},
+    'Polychaete culture experience': {vi:'Kinh nghiệm nuôi giun nhiều tơ'},
+    'Working English proficiency': {vi:'Năng lực tiếng Anh làm việc'},
+    'Hands-on aquaculture': {vi:'Thực hành thủy sản'},
+    'Polychaete culture at Can Tho University': {vi:'Nuôi giun nhiều tơ tại Đại học Cần Thơ'},
+    'This experience improved my understanding of culture systems and helped develop my interest in sustainable aquaculture.': {vi:'Trải nghiệm này giúp tôi hiểu rõ hơn về hệ thống nuôi và góp phần nuôi dưỡng mối quan tâm của tôi đối với thủy sản bền vững.'},
+    'Academic laboratory learning': {vi:'Học tập trong phòng thí nghiệm'},
+    'Water analysis & phytoplankton': {vi:'Phân tích nước & thực vật phù du'},
+    'During my studies, I attended practical laboratory sessions related to water quality and aquatic organisms. I am especially interested in identifying phytoplankton and understanding their role in aquatic environments.': {vi:'Trong quá trình học, tôi tham gia các buổi thực hành phòng thí nghiệm liên quan đến chất lượng nước và sinh vật thủy sinh. Tôi đặc biệt quan tâm đến việc nhận diện thực vật phù du và hiểu vai trò của chúng trong môi trường nước.'},
+    'These experiences encouraged me to keep building my knowledge of water quality and aquatic life.': {vi:'Những trải nghiệm này khuyến khích tôi tiếp tục bồi dưỡng kiến thức về chất lượng nước và đời sống thủy sinh.'},
+    '06 • Professional moments': {vi:'06 • Những khoảnh khắc nghề nghiệp'},
+    'A selected collection of industry events, field activities, university laboratory work and international teamwork.': {vi:'Một bộ ảnh chọn lọc về sự kiện trong ngành, hoạt động thực địa, công việc phòng thí nghiệm tại trường và làm việc nhóm quốc tế.'},
+    'All photos': {vi:'Tất cả ảnh'},
+    'Industry': {vi:'Ngành'},
+    'Technical': {vi:'Kỹ thuật'},
+    'VietShrimp 2023 · Opening ceremony': {vi:'VietShrimp 2023 · Lễ khai mạc'},
+    'Polychaete culture · Tank stocking': {vi:'Nuôi giun nhiều tơ · Thả vào bể'},
+    'Polychaete feeding and care': {vi:'Cho ăn và chăm sóc giun nhiều tơ'},
+    'Phytoplankton observation in the laboratory': {vi:'Quan sát thực vật phù du trong phòng thí nghiệm'},
+    'Water analysis · Guided laboratory learning': {vi:'Phân tích nước · Thực hành có hướng dẫn'},
+    'Shrimp stocking · Undergraduate field practice': {vi:'Thả giống tôm · Thực hành đại học'},
+    'Water sampling · Field practice': {vi:'Lấy mẫu nước · Thực hành thực địa'},
+    'KMITL Thailand · Laboratory exchange': {vi:'KMITL Thái Lan · Trao đổi phòng thí nghiệm'},
+    'AUS 2025 · International project team at NUS': {vi:'AUS 2025 · Nhóm dự án quốc tế tại NUS'},
+    'UNAIR Indonesia · Academic discussion': {vi:'UNAIR Indonesia · Trao đổi học thuật'},
+    'Indonesia · Marine ecosystem learning': {vi:'Indonesia · Học hỏi về hệ sinh thái biển'},
+    'TRIbaLINGUAL · International project team': {vi:'TRIbaLINGUAL · Nhóm dự án quốc tế'},
+    'Can Tho University · Graduation': {vi:'Đại học Cần Thơ · Tốt nghiệp'},
+    'AIRVENTURE 2026 · Certificate presentation': {vi:'AIRVENTURE 2026 · Nhận chứng nhận'},
+    'NUS Singapore · Campus moment': {vi:'NUS Singapore · Khoảnh khắc tại trường'},
+    'Universitas Airlangga · Campus landmark': {vi:'Universitas Airlangga · Cổng trường'},
+    'Vietnamese team at AIRVENTURE · UNAIR 2026': {vi:'Đội Việt Nam tại AIRVENTURE · UNAIR 2026'},
+    '07 • Contact': {vi:'07 • Liên hệ'},
+    'I am interested in opportunities involving aquaculture market development, technical communication, business relationships and science-based solutions for sustainable farming.': {vi:'Tôi quan tâm đến các cơ hội liên quan đến phát triển thị trường thủy sản, truyền thông kỹ thuật, quan hệ kinh doanh và các giải pháp khoa học cho nuôi trồng bền vững.'},
+    'Can Tho, Vietnam': {vi:'Cần Thơ, Việt Nam'},
+    'Your name': {vi:'Tên của bạn'},
+    'Email': {vi:'Email'},
+    'Subject': {vi:'Chủ đề'},
+    'Message': {vi:'Tin nhắn'},
+    'Write an Email ↗': {vi:'Soạn email ↗'},
+    'Asian Undergraduate Symposium ↗': {vi:'Asian Undergraduate Symposium ↗'},
+    'Universitas Airlangga · AIRVENTURE ↗': {vi:'Universitas Airlangga · AIRVENTURE ↗'},
+    '© 2026 Dang Nguyen Minh Khoi. Built for meaningful opportunities in aquaculture.': {vi:'© 2026 Dang Nguyen Minh Khoi. Xây dựng cho những cơ hội ý nghĩa trong ngành thủy sản.'},
+    'Aquaculture · Market Development · Technical Communication': {vi:'Thủy sản · Phát triển thị trường · Truyền thông kỹ thuật'},
+    'WhatsApp · +84 373 644 638': {vi:'WhatsApp · +84 373 644 638'},
+    'Telegram · @id_LouisDang': {vi:'Telegram · @id_LouisDang'},
+    '02': {vi:'02'},
+    '03': {vi:'03'},
+    '695': {vi:'695'},
+    'Open photo: VietShrimp 2025 · Industry event': {vi:'Mở ảnh: VietShrimp 2025 · Sự kiện ngành thủy sản'},
+    'Open photo: VietShrimp 2023 · Opening ceremony': {vi:'Mở ảnh: VietShrimp 2023 · Lễ khai mạc'},
+    'Open photo: Polychaete culture · Tank stocking': {vi:'Mở ảnh: Nuôi giun nhiều tơ · Thả vào bể'},
+    'Open photo: Polychaete feeding and care': {vi:'Mở ảnh: Cho ăn và chăm sóc giun nhiều tơ'},
+    'Open photo: Phytoplankton observation in the laboratory': {vi:'Mở ảnh: Quan sát thực vật phù du trong phòng thí nghiệm'},
+    'Open photo: Water analysis · Guided laboratory learning': {vi:'Mở ảnh: Phân tích nước · Thực hành có hướng dẫn'},
+    'Open photo: Shrimp stocking · Undergraduate field practice': {vi:'Mở ảnh: Thả giống tôm · Thực hành đại học'},
+    'Open photo: Water sampling · Field practice': {vi:'Mở ảnh: Lấy mẫu nước · Thực hành thực địa'},
+    'Open photo: KMITL Thailand · Laboratory exchange': {vi:'Mở ảnh: KMITL Thái Lan · Trao đổi phòng thí nghiệm'},
+    'Open photo: AUS 2025 international team at NUS': {vi:'Mở ảnh: AUS 2025 · Nhóm quốc tế tại NUS'},
+    'Open photo: UNAIR Indonesia · Academic discussion': {vi:'Mở ảnh: UNAIR Indonesia · Trao đổi học thuật'},
+    'Open photo: Indonesia · Marine ecosystem learning': {vi:'Mở ảnh: Indonesia · Học hỏi về hệ sinh thái biển'},
+    'Open photo: TRIbaLINGUAL · International project team': {vi:'Mở ảnh: TRIbaLINGUAL · Nhóm dự án quốc tế'},
+    'Open photo: Can Tho University · Graduation': {vi:'Mở ảnh: Đại học Cần Thơ · Tốt nghiệp'},
+    'Open photo: AIRVENTURE 2026 · Certificate presentation': {vi:'Mở ảnh: AIRVENTURE 2026 · Nhận chứng nhận'},
+    'Open photo: NUS Singapore · Campus moment': {vi:'Mở ảnh: NUS Singapore · Khoảnh khắc tại trường'},
+    'Open photo: Universitas Airlangga · Campus landmark': {vi:'Mở ảnh: Universitas Airlangga · Cổng trường'},
+    'Open photo: Vietnamese team at AIRVENTURE · UNAIR 2026': {vi:'Mở ảnh: Đội Việt Nam tại AIRVENTURE · UNAIR 2026'},
+    'TRIbaLINGUAL.': {vi:'TRIbaLINGUAL.'}
+  };
+  const htmlMap = {
+    '#about .section-title': {en:'Rooted in aquaculture.<br>Open to new opportunities.', vi:'Bắt đầu từ thủy sản.<br>Sẵn sàng cho những cơ hội mới.'},
+    '#journey .section-title': {en:'Experience beyond<br>the classroom.', vi:'Kinh nghiệm ngoài<br>giảng đường.'},
+    '#global .section-title': {en:'Learning across<br>Southeast Asia.', vi:'Học hỏi tại<br>Đông Nam Á.'},
+    '#project .section-title': {en:'TRIbaLINGUAL.<br>Language connects people.', vi:'TRIbaLINGUAL.<br>Ngôn ngữ kết nối con người.'},
+    '#academics .section-title': {en:'A foundation in<br>aquatic science.', vi:'Nền tảng về<br>khoa học thủy sinh.'},
+    '#gallery .section-title': {en:'Real experiences.<br>Real learning.', vi:'Trải nghiệm thật.<br>Học hỏi thật.'},
+    '#contact h2': {en:'Let\'s connect.<br>New ideas start with a conversation.', vi:'Hãy kết nối.<br>Những ý tưởng mới bắt đầu từ một cuộc trò chuyện.'},
+    '.project-copy .tag': {en:'<b>Team member</b> TRIbaLINGUAL', vi:'<b>Thành viên nhóm</b> TRIbaLINGUAL'}
+  };
+  const attrMaps = [
+    {selector:'#name', attr:'placeholder', en:'Full name', vi:'Họ và tên'},
+    {selector:'#email', attr:'placeholder', en:'you@example.com', vi:'ban@example.com'},
+    {selector:'#subject', attr:'placeholder', en:'An opportunity, a question, or a quick hello', vi:'Một cơ hội, một câu hỏi hoặc một lời chào'},
+    {selector:'#message', attr:'placeholder', en:'Write your message here...', vi:'Viết tin nhắn của bạn tại đây...'},
+    {selector:'#themeBtn', attr:'aria-label', en:'Switch color theme', vi:'Đổi giao diện sáng tối'},
+    {selector:'#menuBtn', attr:'aria-label', en:'Open mobile menu', vi:'Mở menu trên điện thoại'},
+    {selector:'#langBtn', attr:'aria-label', en:'Switch language', vi:'Chuyển ngôn ngữ'},
+    {selector:'#lbClose', attr:'aria-label', en:'Close', vi:'Đóng'},
+    {selector:'#lightbox', attr:'aria-label', en:'View larger image', vi:'Xem ảnh lớn'},
+    {selector:'.brand', attr:'aria-label', en:'Back to top', vi:'Về đầu trang'}
+  ];
+  const captionMap = {
+    'VietShrimp 2025 · Industry event': 'VietShrimp 2025 · Sự kiện ngành thủy sản',
+    'VietShrimp 2023 · Opening ceremony': 'VietShrimp 2023 · Lễ khai mạc',
+    'Polychaete culture · Tank stocking': 'Nuôi giun nhiều tơ · Thả vào bể',
+    'Polychaete feeding and care': 'Cho ăn và chăm sóc giun nhiều tơ',
+    'Phytoplankton observation in the laboratory': 'Quan sát thực vật phù du trong phòng thí nghiệm',
+    'Water analysis · Guided laboratory learning': 'Phân tích nước · Thực hành có hướng dẫn',
+    'Shrimp stocking · Undergraduate field practice': 'Thả giống tôm · Thực hành đại học',
+    'Water sampling · Field practice': 'Lấy mẫu nước · Thực hành thực địa',
+    'KMITL Thailand · Laboratory exchange': 'KMITL Thái Lan · Trao đổi phòng thí nghiệm',
+    'AUS 2025 · International project team at NUS': 'AUS 2025 · Nhóm dự án quốc tế tại NUS',
+    'UNAIR Indonesia · Academic discussion': 'UNAIR Indonesia · Trao đổi học thuật',
+    'Indonesia · Marine ecosystem learning': 'Indonesia · Học hỏi về hệ sinh thái biển',
+    'TRIbaLINGUAL · International project team': 'TRIbaLINGUAL · Nhóm dự án quốc tế',
+    'Can Tho University · Graduation': 'Đại học Cần Thơ · Tốt nghiệp',
+    'AIRVENTURE 2026 · Certificate presentation': 'AIRVENTURE 2026 · Nhận chứng nhận',
+    'NUS Singapore · Campus moment': 'NUS Singapore · Khoảnh khắc tại trường',
+    'Universitas Airlangga · Campus landmark': 'Universitas Airlangga · Cổng trường',
+    'Vietnamese team at AIRVENTURE · UNAIR 2026': 'Đội Việt Nam tại AIRVENTURE · UNAIR 2026'
+  };
+
+  // cache original gallery captions and aria labels
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    if(!item.dataset.captionEn) item.dataset.captionEn = item.dataset.caption || '';
+    if(!item.dataset.captionVi) item.dataset.captionVi = captionMap[item.dataset.captionEn] || item.dataset.captionEn;
+    if(!item.dataset.ariaEn) item.dataset.ariaEn = item.getAttribute('aria-label') || '';
+    const viAria = textMap[item.dataset.ariaEn]?.vi || item.dataset.ariaEn;
+    item.dataset.ariaVi = viAria;
+  });
+  document.querySelectorAll('.cap').forEach(el => {
+    if(!el.dataset.en) el.dataset.en = el.textContent.trim();
+    if(!el.dataset.vi) el.dataset.vi = captionMap[el.dataset.en] || el.dataset.en;
+  });
+
+  const walkTextNodes = root => {
+    const nodes=[];
+    const walker=document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode(node){
+        if(!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        const p=node.parentElement;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        if(['SCRIPT','STYLE','TEXTAREA'].includes(p.tagName)) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    let node; while(node=walker.nextNode()) nodes.push(node);
+    return nodes;
+  };
+  const textNodes=walkTextNodes(document.body);
+  const reverseMap={};
+  Object.entries(textMap).forEach(([en,v])=>{ reverseMap[v.vi]=en; });
+  function replacePreserveWhitespace(node, replacement){
+    const val=node.nodeValue;
+    const leading=val.match(/^\s*/)[0];
+    const trailing=val.match(/\s*$/)[0];
+    node.nodeValue=leading+replacement+trailing;
+  }
+  function updateTextNodes(lang){
+    textNodes.forEach(node=>{
+      const trimmed=node.nodeValue.trim();
+      if(lang==='vi' && textMap[trimmed]?.vi) replacePreserveWhitespace(node, textMap[trimmed].vi);
+      if(lang==='en' && reverseMap[trimmed]) replacePreserveWhitespace(node, reverseMap[trimmed]);
+    });
+  }
+  function updateHtmlBlocks(lang){
+    Object.entries(htmlMap).forEach(([sel,val])=>{
+      document.querySelectorAll(sel).forEach(el=>{ el.innerHTML = val[lang] || val.en; });
+    });
+  }
+  function updateAttrs(lang){
+    attrMaps.forEach(rule=>document.querySelectorAll(rule.selector).forEach(el=>el.setAttribute(rule.attr, rule[lang] || rule.en)));
+    document.querySelectorAll('.gallery-item').forEach(item=>{
+      item.dataset.caption = lang==='vi' ? item.dataset.captionVi : item.dataset.captionEn;
+      item.setAttribute('aria-label', lang==='vi' ? item.dataset.ariaVi : item.dataset.ariaEn);
+    });
+    document.querySelectorAll('.cap').forEach(el=>{ el.textContent = lang==='vi' ? el.dataset.vi : el.dataset.en; });
+  }
+  function updateFixedPieces(lang){
+    document.documentElement.lang = lang==='vi' ? 'vi' : 'en';
+    const langBtn=document.getElementById('langBtn');
+    if(langBtn) langBtn.dataset.lang = lang;
+    const open=document.getElementById('lightbox');
+    if(open && open.classList.contains('open')){
+      const cap=document.getElementById('lbCaption');
+      const current=cap.textContent.trim();
+      if(lang==='vi' && captionMap[current]) cap.textContent = captionMap[current];
+      if(lang==='en'){
+        const found = Object.entries(captionMap).find(([,vi])=>vi===current);
+        if(found) cap.textContent = found[0];
+      }
+    }
+  }
+  window.applyKhoiLanguage = function(lang){
+    window.khoiLang = lang;
+    updateHtmlBlocks(lang);
+    updateTextNodes(lang);
+    updateAttrs(lang);
+    updateFixedPieces(lang);
+    try{localStorage.setItem('khoi-lang',lang);}catch(err){}
+    if(typeof resetTypewriter==='function') resetTypewriter();
+  };
+  const saved = (()=>{try{return localStorage.getItem('khoi-lang')}catch(err){return null}})() || 'en';
+  window.khoiLang = saved;
+  document.getElementById('langBtn')?.addEventListener('click',()=>window.applyKhoiLanguage(window.khoiLang==='vi'?'en':'vi'));
+  window.applyKhoiLanguage(saved);
+})();
+</script>
+
+</body>
+</html>
